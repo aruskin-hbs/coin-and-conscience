@@ -1,0 +1,1778 @@
+@base <http://example.com/base/> .
+@prefix cc: <https://librarydata.hbs.edu/coins-and-conscience/> .
+@prefix sdo: <https://schema.org/> .
+@prefix bib: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cc:30 a sdo:VisualArtwork;
+  sdo:name "[The Apostles Distribute the Money to those in Need. Acts 4: 32-35]";
+  sdo:description "Depicts the Apostles distributing bags of money among the poor and needy. In the background people are taking communion."@en;
+  sdo:size "16.5 x 23.8 cm., image";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:Biblical_events, cc:apostles, cc:money, cc:poor, cc:moneybags, cc:baskets,
+    cc:coins, cc:city_views_creative_works_;
+  sdo:identifier 30 .
+
+cc:Biblical_events a sdo:DefinedTerm;
+  sdo:name "Biblical events"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:HollisSubjects a sdo:DefinedTermSet;
+  sdo:name "HOLLIS Subjects"@en;
+  sdo:description "Subjects works are tagged with in HOLLIS"@en .
+
+cc:apostles a sdo:DefinedTerm;
+  sdo:name "apostles"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:money a sdo:DefinedTerm;
+  sdo:name "money"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:poor a sdo:DefinedTerm;
+  sdo:name "poor"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:moneybags a sdo:DefinedTerm;
+  sdo:name "moneybags"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:baskets a sdo:DefinedTerm;
+  sdo:name "baskets"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:coins a sdo:DefinedTerm;
+  sdo:name "coins"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:city_views_creative_works_ a sdo:DefinedTerm;
+  sdo:name "city views (creative works)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:5 a sdo:VisualArtwork;
+  sdo:name "[The Fight of the Money-Bags and the Coffers]";
+  sdo:description "Caption below image is in Latin, French and Dutch: Riches make thieves, or, gold and silver have destroyed many. Printed in Belgium."@en;
+  sdo:size "23.7 x 30.4 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:allegories, cc:personification, cc:money, cc:coin_hoards, cc:coffers_furniture_,
+    cc:moneybags, cc:battles, cc:battlefields, cc:coins, cc:swords, cc:spears_weapons_,
+    cc:war_casualties;
+  sdo:identifier 5 .
+
+cc:allegories a sdo:DefinedTerm;
+  sdo:name "allegories"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:personification a sdo:DefinedTerm;
+  sdo:name "personification"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:coin_hoards a sdo:DefinedTerm;
+  sdo:name "coin hoards"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:coffers_furniture_ a sdo:DefinedTerm;
+  sdo:name "coffers (furniture)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:battles a sdo:DefinedTerm;
+  sdo:name "battles"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:battlefields a sdo:DefinedTerm;
+  sdo:name "battlefields"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:swords a sdo:DefinedTerm;
+  sdo:name "swords"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:spears_weapons_ a sdo:DefinedTerm;
+  sdo:name "spears (weapons)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:war_casualties a sdo:DefinedTerm;
+  sdo:name "war casualties"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:17 a sdo:VisualArtwork;
+  sdo:name "[Peasant with Coins]";
+  sdo:description "Below image: \"Aus der Sammlung des Canonicus Speth.\""@en;
+  sdo:size "28.5 x 19.7 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:peasants, cc:coins, cc:coin_hoards, cc:hats, cc:male_figures;
+  sdo:identifier 17 .
+
+cc:peasants a sdo:DefinedTerm;
+  sdo:name "peasants"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:hats a sdo:DefinedTerm;
+  sdo:name "hats"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:male_figures a sdo:DefinedTerm;
+  sdo:name "male figures"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:10 a sdo:VisualArtwork;
+  sdo:name "[Justice Rewards Toil]";
+  sdo:description "Justice, holding scales in one hand, offers riches to a kneeling peasant."@en;
+  sdo:size "26.5 x 31.5 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1566"^^xsd:gYear;
+  sdo:mentions cc:allegories, cc:personification, cc:scales_weighing_devices_, cc:wealth,
+    cc:labor, cc:human_figures;
+  sdo:identifier 10 .
+
+cc:scales_weighing_devices_ a sdo:DefinedTerm;
+  sdo:name "scales (weighing devices)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:wealth a sdo:DefinedTerm;
+  sdo:name "wealth"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:labor a sdo:DefinedTerm;
+  sdo:name "labor"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:human_figures a sdo:DefinedTerm;
+  sdo:name "human figures"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:59 a sdo:VisualArtwork;
+  sdo:name "J'ai Perdue!";
+  sdo:description "A poor, pregnant woman with three small children holds a losing lottery ticket in her hand."@en;
+  sdo:size "56 x 42.8 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1824"^^xsd:gYear;
+  sdo:mentions cc:mothers, cc:poverty, cc:lotteries, cc:children, cc:pregnancy, cc:snow,
+    cc:government_office_buildings;
+  sdo:identifier 59 .
+
+cc:mothers a sdo:DefinedTerm;
+  sdo:name "mothers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:poverty a sdo:DefinedTerm;
+  sdo:name "poverty"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:lotteries a sdo:DefinedTerm;
+  sdo:name "lotteries"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:children a sdo:DefinedTerm;
+  sdo:name "children"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:pregnancy a sdo:DefinedTerm;
+  sdo:name "pregnancy"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:snow a sdo:DefinedTerm;
+  sdo:name "snow"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:government_office_buildings a sdo:DefinedTerm;
+  sdo:name "government office buildings"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:6 a sdo:VisualArtwork;
+  sdo:name "Der Bruder Esel mit dem Gelt.";
+  sdo:description "An ass is pictured defecating coins while peasants, merchants, and noblemen run to catch them. Print by unknown artist."@en;
+  sdo:size "19.5 x 32 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:mentions cc:allegories, cc:coins, cc:money, cc:excrement, cc:peasants, cc:merchants,
+    cc:noblemen, cc:asses;
+  sdo:identifier 6 .
+
+cc:excrement a sdo:DefinedTerm;
+  sdo:name "excrement"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:merchants a sdo:DefinedTerm;
+  sdo:name "merchants"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:noblemen a sdo:DefinedTerm;
+  sdo:name "noblemen"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:asses a sdo:DefinedTerm;
+  sdo:name "asses"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:16 a sdo:VisualArtwork;
+  sdo:name "Le Plaisir des Vieillards.";
+  sdo:description "Below image: \"Tiré du Cabinet de Mr. le Comte de Vence.\" An old couple weighing coins."@en;
+  sdo:size "26.5 x 19.2 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:old_age, cc:couples, cc:gold, cc:coins, cc:scales_weighing_devices_,
+    cc:moneybags;
+  sdo:identifier 16 .
+
+cc:old_age a sdo:DefinedTerm;
+  sdo:name "old age"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:couples a sdo:DefinedTerm;
+  sdo:name "couples"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:gold a sdo:DefinedTerm;
+  sdo:name "gold"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:29 a sdo:VisualArtwork;
+  sdo:name "[The Parable of Ananias and Sapphira. Acts 5: 1]";
+  sdo:description "Ananias and his wife Sapphira were struck dead for holding back some of their property that was to be communally owned."@en;
+  sdo:size "20.9 x 26.4 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:Biblical_events, cc:parables, cc:money, cc:death, cc:moneybags, cc:coins,
+    cc:apostles, cc:human_figures;
+  sdo:identifier 29 .
+
+cc:parables a sdo:DefinedTerm;
+  sdo:name "parables"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:death a sdo:DefinedTerm;
+  sdo:name "death"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:32 a sdo:VisualArtwork;
+  sdo:name "[St. Roch Giving Alms to the Poor]";
+  sdo:description "St. Roch, born in France, was venerated in Italy for his charity toward the sick and his gift of healing."@en;
+  sdo:size "29.3 x 45.5 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:dateCreated "1610"^^xsd:gYear;
+  sdo:mentions cc:charity, cc:saints, cc:sick, cc:poor, cc:food, cc:money;
+  sdo:identifier 32 .
+
+cc:charity a sdo:DefinedTerm;
+  sdo:name "charity"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:saints a sdo:DefinedTerm;
+  sdo:name "saints"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:sick a sdo:DefinedTerm;
+  sdo:name "sick"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:food a sdo:DefinedTerm;
+  sdo:name "food"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:33 a sdo:VisualArtwork;
+  sdo:name "Le Veau d'Or. Exod. 32.";
+  sdo:description "Adoration of the golden calf."@en;
+  sdo:size "46.5 x 31.2 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:dateCreated "1683"^^xsd:gYear;
+  sdo:mentions cc:Biblical_events, cc:worship, cc:dance, cc:altars, cc:tablets, cc:gold,
+    cc:calves, cc:gods, cc:human_figures, cc:mountains, cc:prophets;
+  sdo:identifier 33 .
+
+cc:worship a sdo:DefinedTerm;
+  sdo:name "worship"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:dance a sdo:DefinedTerm;
+  sdo:name "dance"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:altars a sdo:DefinedTerm;
+  sdo:name "altars"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:tablets a sdo:DefinedTerm;
+  sdo:name "tablets"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:calves a sdo:DefinedTerm;
+  sdo:name "calves"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:gods a sdo:DefinedTerm;
+  sdo:name "gods"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:mountains a sdo:DefinedTerm;
+  sdo:name "mountains"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:prophets a sdo:DefinedTerm;
+  sdo:name "prophets"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:39 a sdo:VisualArtwork;
+  sdo:name "L'Accord de Mariage.";
+  sdo:description "A man gives a young woman money to seal a marriage agreement. There are four witnesses, one has her attention elsewhere."@en;
+  sdo:size "38 x 27 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:marriage_customs_and_rites, cc:courtship, cc:purses_bags_, cc:money,
+    cc:rich_people, cc:business, cc:gowns;
+  sdo:identifier 39 .
+
+cc:marriage_customs_and_rites a sdo:DefinedTerm;
+  sdo:name "marriage customs and rites"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:courtship a sdo:DefinedTerm;
+  sdo:name "courtship"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:purses_bags_ a sdo:DefinedTerm;
+  sdo:name "purses (bags)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:rich_people a sdo:DefinedTerm;
+  sdo:name "rich people"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:business a sdo:DefinedTerm;
+  sdo:name "business"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:gowns a sdo:DefinedTerm;
+  sdo:name "gowns"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:20 a sdo:VisualArtwork;
+  sdo:name "La Commodità Fà l'Huomo Ladro.";
+  sdo:description "Number twenty-two from his series of fifty engravings illustrating Italian proverbs. A thief steals the purse of a sleeping old man."@en;
+  sdo:size "27 x 20 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:dateCreated "1678"^^xsd:gYear;
+  sdo:mentions cc:proverbs, cc:thieves, cc:purses_bags_, cc:money, cc:sleep, cc:elderly,
+    cc:male_figures;
+  sdo:identifier 20 .
+
+cc:proverbs a sdo:DefinedTerm;
+  sdo:name "proverbs"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:thieves a sdo:DefinedTerm;
+  sdo:name "thieves"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:sleep a sdo:DefinedTerm;
+  sdo:name "sleep"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:elderly a sdo:DefinedTerm;
+  sdo:name "elderly"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:53 a sdo:VisualArtwork;
+  sdo:name "La Hausse. In Luck. En Alza.";
+  sdo:description "Pictured is an elegantly dressed woman driving a coach. Her footman rides as her passenger."@en;
+  sdo:size "29.8 x 22 cm., image";
+  sdo:mentions cc:carriages, cc:wealth, cc:female_figures, cc:horse_drawn_vehicles,
+    cc:driving;
+  sdo:identifier 53 .
+
+cc:carriages a sdo:DefinedTerm;
+  sdo:name "carriages"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:female_figures a sdo:DefinedTerm;
+  sdo:name "female figures"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:horse_drawn_vehicles a sdo:DefinedTerm;
+  sdo:name "horse-drawn vehicles"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:driving a sdo:DefinedTerm;
+  sdo:name "driving"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:63 a sdo:VisualArtwork;
+  sdo:name "Philippe Du Four.";
+  sdo:description "Du Four was Counselor and Secretary to the king, Treasurer General of France, and President of the Bureau des Finances in Paris."@en;
+  sdo:size "23.5 x 18 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1682"^^xsd:gYear;
+  sdo:mentions cc:portraits, cc:officers_administrators_, cc:hair, cc:cartouches, cc:coats_of_arms;
+  sdo:identifier 63 .
+
+cc:portraits a sdo:DefinedTerm;
+  sdo:name "portraits"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:officers_administrators_ a sdo:DefinedTerm;
+  sdo:name "officers (administrators)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:hair a sdo:DefinedTerm;
+  sdo:name "hair"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:cartouches a sdo:DefinedTerm;
+  sdo:name "cartouches"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:coats_of_arms a sdo:DefinedTerm;
+  sdo:name "coats of arms"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:54 a sdo:VisualArtwork;
+  sdo:name "La Baisse. Out of Luck. En Baja.";
+  sdo:description "An elegantly dressed woman wearing a black dress, crouching under an umbrella and running through the rain."@en;
+  sdo:size "30 x 22.4 cm., image";
+  sdo:artform "lithographs"@en;
+  sdo:mentions cc:female_figures, cc:horse_drawn_vehicles, cc:rain, cc:umbrellas, cc:walking;
+  sdo:identifier 54 .
+
+cc:rain a sdo:DefinedTerm;
+  sdo:name "rain"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:umbrellas a sdo:DefinedTerm;
+  sdo:name "umbrellas"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:walking a sdo:DefinedTerm;
+  sdo:name "walking"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:26 a sdo:VisualArtwork;
+  sdo:name "Le Grand Diable d'Argent, Patron de la Finance.";
+  sdo:description "Colored lithograph, signed \"J.P. del, C.M. lith.\" Below image is a nine-stanza poem, to be sung to the tune of: \"J'ai vu partout dans mes voyages; ou La pipe de tabac.\""@en;
+  sdo:size "20.5 x 32 cm., image";
+  sdo:artform "lithographs"@en;
+  sdo:mentions cc:devil, cc:demons, cc:coins, cc:people, cc:moneybags, cc:satire_artistic_device_;
+  sdo:identifier 26 .
+
+cc:devil a sdo:DefinedTerm;
+  sdo:name "devil"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:demons a sdo:DefinedTerm;
+  sdo:name "demons"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:people a sdo:DefinedTerm;
+  sdo:name "people"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:satire_artistic_device_ a sdo:DefinedTerm;
+  sdo:name "satire (artistic device)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:35 a sdo:VisualArtwork;
+  sdo:name "Danaë.";
+  sdo:description "Below image: \"Tableau du Cabinet de Monsieur de la Faye, Secretaire du Cabinet du Roy.\" Depiction of the myth of Danaë, who was seduced by Zeus, disguised as a shower of gold."@en;
+  sdo:size "30.5 x 38.7 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:mythology, cc:female_figures, cc:gold, cc:coins, cc:gods, cc:putti,
+    cc:clouds, cc:beds;
+  sdo:identifier 35 .
+
+cc:mythology a sdo:DefinedTerm;
+  sdo:name "mythology"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:putti a sdo:DefinedTerm;
+  sdo:name "putti"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:clouds a sdo:DefinedTerm;
+  sdo:name "clouds"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:beds a sdo:DefinedTerm;
+  sdo:name "beds"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:36 a sdo:VisualArtwork;
+  sdo:name "[Marriage for Wealth Officiated by the Devil]";
+  sdo:description "The second of three numbered engravings after Goltzius called the Marriage Trilogy. A devil joins the hands of a couple as she blows a stream of coins and smoke, symbolizing the transience of honor and material possessions."@en;
+  sdo:size "23.5 x 16.2 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:marriage, cc:devil, cc:wealth, cc:coins, cc:smoke, cc:claws, cc:horns,
+    cc:hoof, cc:rich_people, cc:moneybags;
+  sdo:identifier 36 .
+
+cc:marriage a sdo:DefinedTerm;
+  sdo:name "marriage"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:smoke a sdo:DefinedTerm;
+  sdo:name "smoke"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:claws a sdo:DefinedTerm;
+  sdo:name "claws"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:horns a sdo:DefinedTerm;
+  sdo:name "horns"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:hoof a sdo:DefinedTerm;
+  sdo:name "hoof"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:9 a sdo:VisualArtwork;
+  sdo:name "Honor.";
+  sdo:description "Plate three from his series of four allegorical prints on the virtues after de Vos, representing also the four ages of man. A pious man turns away from a woman offering riches."@en;
+  sdo:size "22 x 25 cm., image";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1591"^^xsd:gYear;
+  sdo:mentions cc:moneybags, cc:allegories, cc:male_figures, cc:study_rooms_, cc:books,
+    cc:female_figures, cc:gold, cc:coins, cc:jewels, cc:temptation, cc:dogs, cc:processions,
+    cc:churches;
+  sdo:identifier 9 .
+
+cc:study_rooms_ a sdo:DefinedTerm;
+  sdo:name "study (rooms)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:books a sdo:DefinedTerm;
+  sdo:name "books"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:jewels a sdo:DefinedTerm;
+  sdo:name "jewels"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:temptation a sdo:DefinedTerm;
+  sdo:name "temptation"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:dogs a sdo:DefinedTerm;
+  sdo:name "dogs"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:processions a sdo:DefinedTerm;
+  sdo:name "processions"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:churches a sdo:DefinedTerm;
+  sdo:name "churches"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:69 a sdo:VisualArtwork;
+  sdo:name "Vue de la Bourse et du Magazin des Marchandises en remontant la petite Neva. [St. Petersburg]";
+  sdo:description "Plate from Nicolas Gabriel Leclerc's Histoire physique, morale, civile et politique de la Russie moderne. Paris et Versailles, 1783-85, which Auvray illustrated."@en;
+  sdo:size "24.8 x 35.5 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:stock_exchanges, cc:commercial_buildings, cc:sailing_vessels, cc:wharves,
+    cc:trade;
+  sdo:identifier 69 .
+
+cc:stock_exchanges a sdo:DefinedTerm;
+  sdo:name "stock exchanges"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:commercial_buildings a sdo:DefinedTerm;
+  sdo:name "commercial buildings"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:sailing_vessels a sdo:DefinedTerm;
+  sdo:name "sailing vessels"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:wharves a sdo:DefinedTerm;
+  sdo:name "wharves"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:trade a sdo:DefinedTerm;
+  sdo:name "trade"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:23 a sdo:VisualArtwork;
+  sdo:name "Le Diable d'Argent";
+  sdo:description "Print by unknown artist. One of the earliest prints of the flying \"money devil,\" who is pursued by people of all trades. Many thematically similar prints were published in Paris and Épinal over the next 150 years."@en;
+  sdo:size "22.5 x 31.5 cm., plate mark";
+  sdo:artform "engravings"@en, "etchings"@en;
+  sdo:mentions cc:moneybags, cc:coins, cc:devil, cc:demons, cc:human_figures, cc:clergy,
+    cc:caduceus, cc:firearms;
+  sdo:identifier 23 .
+
+cc:clergy a sdo:DefinedTerm;
+  sdo:name "clergy"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:caduceus a sdo:DefinedTerm;
+  sdo:name "caduceus"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:firearms a sdo:DefinedTerm;
+  sdo:name "firearms"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:24 a sdo:VisualArtwork;
+  sdo:name "Le Grand Diable d'Argent Patron de la Finance.";
+  sdo:description "Hand-colored etching by unknown artist."@en;
+  sdo:size "25.5 x 34.9 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:mentions cc:devil, cc:demons, cc:coins, cc:human_figures, cc:wings, cc:moneybags,
+    cc:satire_artistic_device_;
+  sdo:identifier 24 .
+
+cc:wings a sdo:DefinedTerm;
+  sdo:name "wings"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:7 a sdo:VisualArtwork;
+  sdo:name "Gellt Zeucht die Weltt. Mundum Trahit Pecunia.";
+  sdo:description "Gold coins form the wheels of a chariot, upon which is the World, while two noblemen blinded by money walk alongside. A group of peasants is held back by Poverty, standing on the wheel of Fortune."@en;
+  sdo:size "First state.";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1589"^^xsd:gYear;
+  sdo:mentions cc:allegories, cc:personification, cc:gold, cc:coins, cc:processions,
+    cc:chariots, cc:demons, cc:blind_people_, cc:noblemen, cc:peasants;
+  sdo:identifier 7 .
+
+cc:chariots a sdo:DefinedTerm;
+  sdo:name "chariots"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:blind_people_ a sdo:DefinedTerm;
+  sdo:name "blind (people)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:65 a sdo:VisualArtwork;
+  sdo:name "James Edouard de Rothschild (1844-81).";
+  sdo:description "He was the son of Nathaniel (Paris branch), and the grandson of Nathan Meyer Rothschild, who founded the famed London branch of the family."@en;
+  sdo:size "31.5 x 25 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:portraits, cc:male_figures, cc:rich_people, cc:cigars;
+  sdo:identifier 65 .
+
+cc:cigars a sdo:DefinedTerm;
+  sdo:name "cigars"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:66 a sdo:VisualArtwork;
+  sdo:name "De Beurs. [Amsterdam]";
+  sdo:description "The Amsterdam exchange, situated on the Amstel River, was designed by Hendrick de Keijser and opened in 1611. Trading was carried on in the open inner court. Print by unknown artist."@en;
+  sdo:size "19.2 x 29.8 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:mentions cc:stock_exchanges, cc:commercial_buildings, cc:trade, cc:courtyards,
+    cc:clock_towers, cc:bell_towers, cc:canals, cc:city_and_town_life;
+  sdo:identifier 66 .
+
+cc:courtyards a sdo:DefinedTerm;
+  sdo:name "courtyards"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:clock_towers a sdo:DefinedTerm;
+  sdo:name "clock towers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:bell_towers a sdo:DefinedTerm;
+  sdo:name "bell towers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:canals a sdo:DefinedTerm;
+  sdo:name "canals"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:city_and_town_life a sdo:DefinedTerm;
+  sdo:name "city and town life"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:25 a sdo:VisualArtwork;
+  sdo:name "Les Vérités du Jour, ou le Grand Diable d'Argent.";
+  sdo:description "An example of one of the hundreds of prints published by the Pellerin firm in Epinal during the height of its renown as creator of \"images populaires.\" Print by unknown artist."@en;
+  sdo:size "29.4 x 49.5 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:devil, cc:demons, cc:coins, cc:wings, cc:human_figures, cc:allegories,
+    cc:death, cc:satire_artistic_device_;
+  sdo:identifier 25 .
+
+cc:14 a sdo:VisualArtwork;
+  sdo:name "[Allegory of Wealth and Luxury]";
+  sdo:description "An earlier state was published in 1609. A woman sits at a table of money, silver chalices, and jewels. In the foreground are a crown and scepter, behind which smoke and bubbles rise from a cup—symbolizing the transience of power and glory."@en;
+  sdo:size "23.6 x 18.7 cm., image";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1611"^^xsd:gYear;
+  sdo:mentions cc:allegories, cc:female_figures, cc:smoke, cc:bubbles, cc:coins, cc:jewels,
+    cc:moneybags, cc:crowns_headdresses_, cc:scepters;
+  sdo:identifier 14 .
+
+cc:bubbles a sdo:DefinedTerm;
+  sdo:name "bubbles"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:crowns_headdresses_ a sdo:DefinedTerm;
+  sdo:name "crowns (headdresses)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:scepters a sdo:DefinedTerm;
+  sdo:name "scepters"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:42 a sdo:VisualArtwork;
+  sdo:name "Midas, Transmuting all into GOLD PAPER.";
+  sdo:description "Published March 9, 1797. Another satire on the creation of legal tender bank notes by the Bank of England. (See 41). William Pitt is pictured spewing paper money out of his mouth, while gold coins are locked up in his stomach."@en;
+  sdo:size "35.5 x 25.5 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:dateCreated "1797"^^xsd:gYear;
+  sdo:mentions cc:excrement, cc:caricatures, cc:prime_ministers, cc:mythology, cc:money,
+    cc:gold, cc:reed, cc:ears, cc:banks_and_banking, cc:toilets, cc:satire_artistic_device_;
+  sdo:identifier 42 .
+
+cc:caricatures a sdo:DefinedTerm;
+  sdo:name "caricatures"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:prime_ministers a sdo:DefinedTerm;
+  sdo:name "prime ministers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:reed a sdo:DefinedTerm;
+  sdo:name "reed"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:ears a sdo:DefinedTerm;
+  sdo:name "ears"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:banks_and_banking a sdo:DefinedTerm;
+  sdo:name "banks and banking"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:toilets a sdo:DefinedTerm;
+  sdo:name "toilets"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:22 a sdo:VisualArtwork;
+  sdo:name "Le Cornard Contant";
+  sdo:description "Possibly a plate from his Oiseaux et Grotesques. The \"happy cuckold\" does not mind his lost honor, because his \"horns of plenty\" bring him immeasurable happiness. (French caption)."@en;
+  sdo:size "31 x 22 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:horns, cc:coins, cc:jewels, cc:money, cc:cornucopias, cc:clothing_dress;
+  sdo:identifier 22 .
+
+cc:cornucopias a sdo:DefinedTerm;
+  sdo:name "cornucopias"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:clothing_dress a sdo:DefinedTerm;
+  sdo:name "clothing & dress"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:12 a sdo:VisualArtwork;
+  sdo:name "Divitiæ";
+  sdo:description "Riches, portrayed as a woman holding money, jewels, and silver, sits near a little girl who holds a mirror. She is Pride, the daughter of Riches. Printed in Antwerp."@en;
+  sdo:size "17.5 x 22.5 cm., image";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:allegories, cc:personification, cc:mother_and_child, cc:rich_people,
+    cc:wealth, cc:moneybags, cc:jewels, cc:courtyards, cc:garden_parties, cc:coins;
+  sdo:identifier 12 .
+
+cc:mother_and_child a sdo:DefinedTerm;
+  sdo:name "mother and child"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:garden_parties a sdo:DefinedTerm;
+  sdo:name "garden parties"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:49 a sdo:VisualArtwork;
+  sdo:name "Le Grand Saut . . . Sot.";
+  sdo:description "Lithograph by unknown artist. Louis-Philippe is pictured jumping over the Channel from France to England. The title is a play on words, which can be read \"the big leap\" or \"the big fool.\""@en;
+  sdo:size "25.5 x 23 cm., image";
+  sdo:artform "lithographs"@en;
+  sdo:mentions cc:caricatures, cc:kings_and_rulers, cc:thieves, cc:money, cc:channels_water_body_components_,
+    cc:jumping, cc:satire_artistic_device_;
+  sdo:identifier 49 .
+
+cc:kings_and_rulers a sdo:DefinedTerm;
+  sdo:name "kings and rulers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:channels_water_body_components_ a sdo:DefinedTerm;
+  sdo:name "channels (water body components)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:jumping a sdo:DefinedTerm;
+  sdo:name "jumping"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:45 a sdo:VisualArtwork;
+  sdo:name "Pauvres Aveugles.";
+  sdo:description "Plate 282 from La Caricature, no. 136 (June 13, 1833). Louis-Philippe is followed by his ministers, carrying bags of money as they descend into the \"Gouffre de l'illigalité.\""@en;
+  sdo:size "19 x 27 cm., image";
+  sdo:artform "lithographs"@en;
+  sdo:dateCreated "1833"^^xsd:gYear;
+  sdo:mentions cc:caricatures, cc:political_cartoons, cc:politicians, cc:blindness,
+    cc:purses_bags_, cc:money, cc:canes, cc:canyons, cc:thieves, cc:wealth, cc:satire_artistic_device_;
+  sdo:identifier 45 .
+
+cc:political_cartoons a sdo:DefinedTerm;
+  sdo:name "political cartoons"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:politicians a sdo:DefinedTerm;
+  sdo:name "politicians"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:blindness a sdo:DefinedTerm;
+  sdo:name "blindness"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:canes a sdo:DefinedTerm;
+  sdo:name "canes"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:canyons a sdo:DefinedTerm;
+  sdo:name "canyons"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:28 a sdo:VisualArtwork;
+  sdo:name "[The Parable of the Talents. Mt. 25: 14]";
+  sdo:description "A later state of a print first issued as part of a series of fourteen engravings from the New Testament: Memorabilium, Novi Testamenti . . . Antwerp, exc. Gerard de Jode."@en;
+  sdo:size "20.5 x 28.7 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:Biblical_events, cc:parables, cc:investment, cc:coins, cc:coin_hoards,
+    cc:servants, cc:chests, cc:moneybags;
+  sdo:identifier 28 .
+
+cc:investment a sdo:DefinedTerm;
+  sdo:name "investment"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:servants a sdo:DefinedTerm;
+  sdo:name "servants"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:chests a sdo:DefinedTerm;
+  sdo:name "chests"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:34 a sdo:VisualArtwork;
+  sdo:name "[Darius, out of Greed, Orders the Tomb of Queen Nitocris to be Opened]";
+  sdo:description "Possibly printed in Amsterdam. The French caption below the image tells the legend of King Darius, who plundered the tomb of Queen Nitocris for the riches promised within, only to find a corpse and a curse upon his avarice."@en;
+  sdo:size "36.4 x 22.4 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1725"^^xsd:gYear;
+  sdo:mentions cc:kings_and_rulers, cc:queens, cc:tombs, cc:ancient, cc:thieves, cc:stones,
+    cc:picks_tools_, cc:human_figures, cc:pyramids;
+  sdo:identifier 34 .
+
+cc:queens a sdo:DefinedTerm;
+  sdo:name "queens"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:tombs a sdo:DefinedTerm;
+  sdo:name "tombs"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:ancient a sdo:DefinedTerm;
+  sdo:name "ancient"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:stones a sdo:DefinedTerm;
+  sdo:name "stones"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:picks_tools_ a sdo:DefinedTerm;
+  sdo:name "picks (tools)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:pyramids a sdo:DefinedTerm;
+  sdo:name "pyramids"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:8 a sdo:VisualArtwork;
+  sdo:name "[The Two Deaths]";
+  sdo:description "A narrative in two parts. At left, a pious man receives riches from heaven; at right, Death prepares to strike a miser amidst his wealth. Printed in Antwerp."@en;
+  sdo:size "29.8 x 32.5 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:allegories, cc:personification, cc:wealth, cc:heaven, cc:gold, cc:coin_hoards,
+    cc:death, cc:moneybags;
+  sdo:identifier 8 .
+
+cc:heaven a sdo:DefinedTerm;
+  sdo:name "heaven"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:19 a sdo:VisualArtwork;
+  sdo:name "Dove L'Oro Parla, Ogni Lingua Tace.";
+  sdo:description "Printed in Bologna. Number thirteen from his series of fifty engravings illustrating Italian proverbs. A man murders, then steals the victim's purse, offering a witness money to keep quiet."@en;
+  sdo:size "27 x 20 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:dateCreated "1678"^^xsd:gYear;
+  sdo:mentions cc:thieves, cc:murderers, cc:daggers_weapons_, cc:money, cc:male_figures,
+    cc:proverbs, cc:moneybags;
+  sdo:identifier 19 .
+
+cc:murderers a sdo:DefinedTerm;
+  sdo:name "murderers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:daggers_weapons_ a sdo:DefinedTerm;
+  sdo:name "daggers (weapons)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:58 a sdo:VisualArtwork;
+  sdo:name "Une Assemblée d'Actionnaires.";
+  sdo:description "Hand-colored lithograph, signed \"Lavrate.\" Depicts a meeting of shareholders, all of whom have animal bodies and human heads. The officers in charge have animal heads and human bodies."@en;
+  sdo:size "28 x 37.5 cm., image";
+  sdo:artform "lithographs"@en;
+  sdo:mentions cc:satire, cc:animals_in_human_situations, cc:human_figures, cc:animal_heads,
+    cc:anthropomorphic, cc:meetings, cc:officers_administrators_;
+  sdo:identifier 58 .
+
+cc:satire a sdo:DefinedTerm;
+  sdo:name "satire"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:animals_in_human_situations a sdo:DefinedTerm;
+  sdo:name "animals in human situations"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:animal_heads a sdo:DefinedTerm;
+  sdo:name "animal heads"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:anthropomorphic a sdo:DefinedTerm;
+  sdo:name "anthropomorphic"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:meetings a sdo:DefinedTerm;
+  sdo:name "meetings"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:52 a sdo:VisualArtwork;
+  sdo:name "[A Lucky and Unlucky Speculator]";
+  sdo:description "Etching and engraving (part stipple) by unidentified artist; \"Rentier fecit.\" Below image: \"Hélas! de vous à moi tel est la différence!!! C'est incroyable. . .\""@en;
+  sdo:size "26.5 x 32.5 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:mentions cc:wealth, cc:poverty, cc:money, cc:male_figures, cc:clothing_and_dress;
+  sdo:identifier 52 .
+
+cc:clothing_and_dress a sdo:DefinedTerm;
+  sdo:name "clothing and dress"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:4 a sdo:VisualArtwork;
+  sdo:name "[An Allegorical Hunt]";
+  sdo:description "Printed in Antwerp. Lower plate mark has been trimmed. Money is chased by a peasant whose hounds are Frugality, Industry, and Labor; Prodigality, whose hounds are Rapine and Chance; and Avarice, whose hounds are Usury and Fraud. Justice is trampled under foot."@en;
+  sdo:size "21.7 x 24 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1578"^^xsd:gYear;
+  sdo:mentions cc:allegories, cc:personification, cc:hunting;
+  sdo:identifier 4;
+  a sdo:VisualArtwork;
+  sdo:identifier 4;
+  sdo:mentions cc:hounds, cc:money, cc:people, cc:horses, cc:coins, cc:scales_weighing_devices_,
+    cc:inscriptions_Latin, cc:moneybags .
+
+cc:hunting a sdo:DefinedTerm;
+  sdo:name "hunting"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:HollisSubjects a sdo:DefinedTermSet;
+  sdo:name "HOLLIS Subjects"@en;
+  sdo:description "Subjects works are tagged with in HOLLIS"@en .
+
+cc:hounds a sdo:DefinedTerm;
+  sdo:name "hounds"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:money a sdo:DefinedTerm;
+  sdo:name "money"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:people a sdo:DefinedTerm;
+  sdo:name "people"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:horses a sdo:DefinedTerm;
+  sdo:name "horses"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:coins a sdo:DefinedTerm;
+  sdo:name "coins"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:scales_weighing_devices_ a sdo:DefinedTerm;
+  sdo:name "scales (weighing devices)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:inscriptions_Latin a sdo:DefinedTerm;
+  sdo:name "inscriptions, Latin"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:moneybags a sdo:DefinedTerm;
+  sdo:name "moneybags"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:61 a sdo:VisualArtwork;
+  sdo:name "Georg Fussel (b. 1601).";
+  sdo:description "The Bancho Publico in Nürnberg was one of the oldest banks in Germany, founded in 1621, and in operation until 1827. Fussel was its banker from 1654 to 1674."@en;
+  sdo:size "18.5 x 13.5 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:portraits, cc:bankers, cc:cartouches, cc:coats_of_arms, cc:wealth;
+  sdo:identifier 61 .
+
+cc:portraits a sdo:DefinedTerm;
+  sdo:name "portraits"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:bankers a sdo:DefinedTerm;
+  sdo:name "bankers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:cartouches a sdo:DefinedTerm;
+  sdo:name "cartouches"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:coats_of_arms a sdo:DefinedTerm;
+  sdo:name "coats of arms"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:wealth a sdo:DefinedTerm;
+  sdo:name "wealth"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:37 a sdo:VisualArtwork;
+  sdo:name "[Der Liebensantrag -- the Ill-Assorted Couple]";
+  sdo:description "Engraved comtemporary copy, in mirror image, of Albrecht Durer's engraving by this title. There is much controversy surrounding both the Dürer original and this copy. The original engraving is one of Dürer's earliest; possibly a depiction of Judah and Tamar (Gen. 38: 14-18), or of Berthold Tucher and Anna Pfinzing of Nürnberg. The copy has been attributed to Marcantonio Raimondi (1480-1534)."@en;
+  sdo:size "14.3 x 13.5 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:couples, cc:purses_bags_, cc:money, cc:roadsides, cc:horses;
+  sdo:identifier 37 .
+
+cc:couples a sdo:DefinedTerm;
+  sdo:name "couples"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:purses_bags_ a sdo:DefinedTerm;
+  sdo:name "purses (bags)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:roadsides a sdo:DefinedTerm;
+  sdo:name "roadsides"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:18 a sdo:VisualArtwork;
+  sdo:name "[Banquet with Musicians]";
+  sdo:description "A woman steals the purse of a peasant while they sit at a meal. Below image: \"Die burss, vnd frische frewlein den bawren bringen vmb das sein.\" From his Stirpium Insignium Nobilitatis, \"in Verlegung Ludwig Kunings vo Basel,\" first edition published before 1612, another edition dated 1617. The prints were also published in other sets."@en;
+  sdo:size "10 x 14 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:banquets, cc:musicians, cc:people, cc:thieves, cc:purses_bags_, cc:money,
+    cc:dogs;
+  sdo:identifier 18 .
+
+cc:banquets a sdo:DefinedTerm;
+  sdo:name "banquets"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:musicians a sdo:DefinedTerm;
+  sdo:name "musicians"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:thieves a sdo:DefinedTerm;
+  sdo:name "thieves"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:dogs a sdo:DefinedTerm;
+  sdo:name "dogs"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:67 a sdo:VisualArtwork;
+  sdo:name "Borse. [Antwerp]";
+  sdo:description "The Antwerp exchange was dedicated in 1532 \"for the use of tradesmen of all countries and languages, and as an ornament to its city.\" (Latin inscription.) It was the first financial exchange in Europe, standing until 1858, when it was destroyed by fire. Print by unknown artist."@en;
+  sdo:size "14.2 x 19.7 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:historic_buildings, cc:stock_exchanges, cc:commercial_buildings, cc:courtyards,
+    cc:bell_towers, cc:clock_towers;
+  sdo:identifier 67 .
+
+cc:historic_buildings a sdo:DefinedTerm;
+  sdo:name "historic buildings"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:stock_exchanges a sdo:DefinedTerm;
+  sdo:name "stock exchanges"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:commercial_buildings a sdo:DefinedTerm;
+  sdo:name "commercial buildings"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:courtyards a sdo:DefinedTerm;
+  sdo:name "courtyards"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:bell_towers a sdo:DefinedTerm;
+  sdo:name "bell towers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:clock_towers a sdo:DefinedTerm;
+  sdo:name "clock towers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:56 a sdo:VisualArtwork;
+  sdo:name "Credit est Mort.";
+  sdo:description "An allegory with the caption: \"Les mauvais payeurs l'ont tué.\" Pictured are an artist, a musician, and a soldier, who have killed another man, lying at their feet. In the background is a man sharpening a knife, there is a duck at his feet. This image inspired many provincial copies, notably at Épinal. Print by unknown artist."@en;
+  sdo:size "26 x 34.5 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:mentions cc:caricatures, cc:death, cc:murder, cc:artists, cc:musicians, cc:soldiers,
+    cc:knives, cc:ducks, cc:satire_artistic_device_;
+  sdo:identifier 56 .
+
+cc:caricatures a sdo:DefinedTerm;
+  sdo:name "caricatures"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:death a sdo:DefinedTerm;
+  sdo:name "death"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:murder a sdo:DefinedTerm;
+  sdo:name "murder"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:artists a sdo:DefinedTerm;
+  sdo:name "artists"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:soldiers a sdo:DefinedTerm;
+  sdo:name "soldiers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:knives a sdo:DefinedTerm;
+  sdo:name "knives"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:ducks a sdo:DefinedTerm;
+  sdo:name "ducks"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:satire_artistic_device_ a sdo:DefinedTerm;
+  sdo:name "satire (artistic device)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:11 a sdo:VisualArtwork;
+  sdo:name "[Avarice]";
+  sdo:description "Print by unknown artist. Depiction of a man clutching money bags. \"The miser, hoarding his treasure, lives amid riches, yet is always destitute.\" (Latin caption). The frog in the foreground is a symbol associated with sin, particularly that of hoarding worldly things. Engraving, in the style of Jan Saenredam."@en;
+  sdo:size "21 x 14 cm., image";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:allegories, cc:sin, cc:male_figures, cc:money, cc:moneybags;
+  sdo:identifier 11 .
+
+cc:allegories a sdo:DefinedTerm;
+  sdo:name "allegories"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:sin a sdo:DefinedTerm;
+  sdo:name "sin"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:male_figures a sdo:DefinedTerm;
+  sdo:name "male figures"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:3 a sdo:VisualArtwork;
+  sdo:name "[The Triumph of Riches]";
+  sdo:description "Engraver is either Dirck Volckertsz Coornhert or Cornelis Cort. Plate two of the series of eight engravings after Heemskerck entitled Circulus vicissitudinis rerum humanarum (Cycle of the vicissitudes of human affairs.) Riches, the mother of Pride, rides on the car named Fame, which is pulled by Fraud and Rapine. Following Betrayal, Usury, and Lust are False Joy and other Idle Pleasures. Printed in Antwerp."@en;
+  sdo:size "22.2 x 29.4 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1564"^^xsd:gYear;
+  sdo:mentions cc:allegories, cc:processions, cc:carriages_and_carts, cc:horses, cc:personification,
+    cc:human_figures, cc:wealth, cc:inscriptions_Latin, cc:moneybags;
+  sdo:identifier 3 .
+
+cc:processions a sdo:DefinedTerm;
+  sdo:name "processions"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:carriages_and_carts a sdo:DefinedTerm;
+  sdo:name "carriages and carts"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:personification a sdo:DefinedTerm;
+  sdo:name "personification"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:human_figures a sdo:DefinedTerm;
+  sdo:name "human figures"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:62 a sdo:VisualArtwork;
+  sdo:name "Sir Thomas Gresham (1519?-79).";
+  sdo:description "Engraving and aquatint by unknown artist. Gresham is known as the founder of the Royal Exchange and of Gresham College, London. As the royal financial agent in Antwerp, he was shrewd in discharging the debts of the crown, and negotiating new loans from the wealthy families of Europe. He also amassed a great personal fortune as a banker, merchant, and mercer."@en;
+  sdo:size "22.5 x 17.5 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1793"^^xsd:gYear;
+  sdo:mentions cc:portraits, cc:bankers, cc:merchants, cc:clothing_and_dress, cc:robes;
+  sdo:identifier 62 .
+
+cc:merchants a sdo:DefinedTerm;
+  sdo:name "merchants"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:clothing_and_dress a sdo:DefinedTerm;
+  sdo:name "clothing and dress"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:robes a sdo:DefinedTerm;
+  sdo:name "robes"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:1 a sdo:VisualArtwork;
+  sdo:name "[The Unhappy Lot of the Rich]";
+  sdo:description "Plate one of his series of six engravings after Heemskerck with this title, published in 1563. A later state, shown here, called Divitum Misera Sors, was issued by Joannes Galle. Illustration of Matthew 19:23-24. A rich man tries to enter the gate to Heaven, but his money bags hold him back. Behind him, three men try to lead a camel through the eye of a needle. Printed in Antwerp."@en;
+  sdo:size "17.1 x 23.2 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1563"^^xsd:gYear;
+  sdo:mentions cc:allegories, cc:heaven, cc:gates, cc:money, cc:moneybags, cc:camels,
+    cc:eyes, cc:needles, cc:male_figures, cc:whips;
+  sdo:identifier 1 .
+
+cc:heaven a sdo:DefinedTerm;
+  sdo:name "heaven"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:gates a sdo:DefinedTerm;
+  sdo:name "gates"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:camels a sdo:DefinedTerm;
+  sdo:name "camels"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:eyes a sdo:DefinedTerm;
+  sdo:name "eyes"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:needles a sdo:DefinedTerm;
+  sdo:name "needles"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:whips a sdo:DefinedTerm;
+  sdo:name "whips"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:38 a sdo:VisualArtwork;
+  sdo:name "Ni l'Un ni l'Autre.";
+  sdo:description "Etching (part stipple) by Friedrich Fleischmann (1791-1834), after Jenny Berger (née Desoras). Nürnberg, Published by Fr. Campe, [early 19th century]. A woman is pictured standing between two men, one of whom offers her jewels, the other, money. The woman has her index fingers in her ears."@en;
+  sdo:size "33 x 23 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:mentions cc:courtship, cc:coins, cc:jewelry, cc:competitions, cc:deaf, cc:beauty,
+    cc:men, cc:temptation;
+  sdo:identifier 38 .
+
+cc:courtship a sdo:DefinedTerm;
+  sdo:name "courtship"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:jewelry a sdo:DefinedTerm;
+  sdo:name "jewelry"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:competitions a sdo:DefinedTerm;
+  sdo:name "competitions"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:deaf a sdo:DefinedTerm;
+  sdo:name "deaf"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:beauty a sdo:DefinedTerm;
+  sdo:name "beauty"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:men a sdo:DefinedTerm;
+  sdo:name "men"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:temptation a sdo:DefinedTerm;
+  sdo:name "temptation"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:31 a sdo:VisualArtwork;
+  sdo:name "[Christ and the Pharisees with the Tribute Money. Mt. 22]";
+  sdo:description "Depicts a scene from the New Testament, Mathew 22, referring to the statement by Jesus, \"Render therefore unto Caesar the things which are Caesar's; and unto God the things that are God's.\" Jesus points upwards as he is shown a coin by another man."@en;
+  sdo:size "24 x 18.8 cm., image";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:Biblical_events, cc:Jesus_Christ, cc:archways, cc:coins, cc:emperors,
+    cc:taxes;
+  sdo:identifier 31 .
+
+cc:Biblical_events a sdo:DefinedTerm;
+  sdo:name "Biblical events"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:Jesus_Christ a sdo:DefinedTerm;
+  sdo:name "Jesus Christ"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:archways a sdo:DefinedTerm;
+  sdo:name "archways"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:emperors a sdo:DefinedTerm;
+  sdo:name "emperors"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:taxes a sdo:DefinedTerm;
+  sdo:name "taxes"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:21 a sdo:VisualArtwork;
+  sdo:name "Le Riche du Jour ou le Préteur sur Gages.";
+  sdo:description "An old woman pawns her jewels to a sinister-looking pawnbroker, whose sign reads: \"Je prête Madame, à mes concitoyens à deux cent pour cent d'intérèts.\""@en;
+  sdo:size "32.5 x 37 cm.";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:pawnshops, cc:jewels, cc:elderly, cc:canes, cc:money, cc:coins;
+  sdo:identifier 21 .
+
+cc:pawnshops a sdo:DefinedTerm;
+  sdo:name "pawnshops"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:jewels a sdo:DefinedTerm;
+  sdo:name "jewels"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:elderly a sdo:DefinedTerm;
+  sdo:name "elderly"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:canes a sdo:DefinedTerm;
+  sdo:name "canes"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:50 a sdo:VisualArtwork;
+  sdo:name "Le Speculateur.";
+  sdo:description "Plate twenty-eight from Exercises d'Imagination de Différents Caractères et Formes Humaines . . . Augsburg, 1784-85, of which plates one to eighty-four were engraved by Brichet, and plates eighty-five to one hundred by Goez. A once well-dressed man is reduced to rags by bad speculation. An owl is tethered to his waistcoat. A small circular building is in the background."@en;
+  sdo:size "23.5 x 16.2 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:dateCreated "1784"^^xsd:gYear;
+  sdo:mentions cc:wealth, cc:poverty, cc:clothing_and_dress, cc:money, cc:owls;
+  sdo:identifier 50 .
+
+cc:poverty a sdo:DefinedTerm;
+  sdo:name "poverty"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:owls a sdo:DefinedTerm;
+  sdo:name "owls"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:55 a sdo:VisualArtwork;
+  sdo:name "[Allegory on the Death of Credit]";
+  sdo:description "A funeral procession carries a coffin toward a grave, in front of which are a man and woman weeping. Translation of the German caption below image: Great mourning and sorrow, grief and lamentation, The best helper is now laid to rest. Who do you think it is? Monsieur Credit is dead, He who so often rescued you and me from distress. Print by unknown artist."@en;
+  sdo:size "27.5 x 18 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:poetry, cc:funeral_processions, cc:mourning, cc:funeral_rites_and_ceremonies,
+    cc:satire_artistic_device_;
+  sdo:identifier 55 .
+
+cc:poetry a sdo:DefinedTerm;
+  sdo:name "poetry"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:funeral_processions a sdo:DefinedTerm;
+  sdo:name "funeral processions"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:mourning a sdo:DefinedTerm;
+  sdo:name "mourning"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:funeral_rites_and_ceremonies a sdo:DefinedTerm;
+  sdo:name "funeral rites and ceremonies"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:60 a sdo:VisualArtwork;
+  sdo:name "Karl Fugger.";
+  sdo:description "A member of the powerful German family of merchant princes descended from Hans Fugger, a fourteenth century weaver. The Fugger dynasty acquired its fortune through trade and banking, becoming the wealthiest family in Europe in the sixteenth century. Its decline paralleled that of the Hapsburg monarchy, whose wars they financed."@en;
+  sdo:size "15 x 11 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:portraits, cc:lace, cc:collars, cc:embroidery, cc:clothing_and_dress,
+    cc:wealth, cc:swords;
+  sdo:identifier 60 .
+
+cc:lace a sdo:DefinedTerm;
+  sdo:name "lace"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:collars a sdo:DefinedTerm;
+  sdo:name "collars"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:embroidery a sdo:DefinedTerm;
+  sdo:name "embroidery"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:swords a sdo:DefinedTerm;
+  sdo:name "swords"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:27 a sdo:VisualArtwork;
+  sdo:name "[The Queen of Sheba Bringing Gifts to King Solomon. 1 Kings 10]";
+  sdo:description "Plate fifty from Historia del Testamento Vecchio dipinta in Roma nel Vaticano da Raffaelle di Urbino, published by Giovanni Orlandini in Rome, 1607. It was comprised of fifty-one etchings (twenty-three by Badalocchio, the others by Giovanni Lanfranco, 1582-1647) after Raphael's frescos in the loggias of the Vatican."@en;
+  sdo:size "13.4 x 18 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:dateCreated "1607"^^xsd:gYear;
+  sdo:mentions cc:Biblical_events, cc:queens, cc:kings, cc:gifts, cc:human_figures,
+    cc:coins;
+  sdo:identifier 27 .
+
+cc:queens a sdo:DefinedTerm;
+  sdo:name "queens"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:kings a sdo:DefinedTerm;
+  sdo:name "kings"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:gifts a sdo:DefinedTerm;
+  sdo:name "gifts"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:15 a sdo:VisualArtwork;
+  sdo:name "[Jan Uytenbogaert, 'The Goldweigher.']";
+  sdo:description "Uytenbogaert was the Receiver General in Amsterdam for the state of Holland. He made the first payment on Rembrandt's new house in 1639, since one of his clients owed the artist money for two paintings. Rembrandt probably did this portrait in thanks for Uytenbogaert's generosity."@en;
+  sdo:size "24.5 x 20.8 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:dateCreated "1639"^^xsd:gYear;
+  sdo:mentions cc:portraits, cc:money, cc:gold, cc:scales_weighing_devices_, cc:bags_containers_,
+    cc:account_books, cc:people;
+  sdo:identifier 15 .
+
+cc:gold a sdo:DefinedTerm;
+  sdo:name "gold"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:bags_containers_ a sdo:DefinedTerm;
+  sdo:name "bags (containers)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:account_books a sdo:DefinedTerm;
+  sdo:name "account books"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:70 a sdo:VisualArtwork;
+  sdo:name "Die Hamburger Börse. [the old exchange]";
+  sdo:description "The earliest exchange in Hamburg opened in 1558, and was greatly enlarged during the years 1577-83, 1669, and the following century. It was destroyed in the great Hamburg fire of 1842. Fortunately, construction of a new exchange building on the Adolphsplatz had already begun in 1839, and was dedicated in 1841. It was enlarged several times during the remainder of the nineteenth century."@en;
+  sdo:size "10.8 x 18.8 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1822"^^xsd:gYear;
+  sdo:mentions cc:historic_buildings, cc:stock_exchanges, cc:commercial_buildings, cc:plazas,
+    cc:pedestrians, cc:trees, cc:statues, cc:clock_towers;
+  sdo:identifier 70 .
+
+cc:plazas a sdo:DefinedTerm;
+  sdo:name "plazas"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:pedestrians a sdo:DefinedTerm;
+  sdo:name "pedestrians"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:trees a sdo:DefinedTerm;
+  sdo:name "trees"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:statues a sdo:DefinedTerm;
+  sdo:name "statues"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:2 a sdo:VisualArtwork;
+  sdo:name "[The Unhappy Lot of the Rich]";
+  sdo:description "Plate four of his series of six engravings after Heemskerck with this title. Depiction of the qualities that accompany money: Queen Money's car is drawn by Danger and Fear, while Robbery hides under her cloak. She is followed by Folly, Envy, Theft, and the Entire Populace. Printed in Antwerp."@en;
+  sdo:size "17 x 23 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1563"^^xsd:gYear;
+  sdo:mentions cc:allegories, cc:processions, cc:carriages_and_carts, cc:queens, cc:money,
+    cc:thieves, cc:cornucopias, cc:personification, cc:moneybags;
+  sdo:identifier 2 .
+
+cc:cornucopias a sdo:DefinedTerm;
+  sdo:name "cornucopias"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:40 a sdo:VisualArtwork;
+  sdo:name "La Double Tentation.";
+  sdo:description "\"Gravé d'apres le tableau original de même grandeur qui se trouve dans la galerie de S.E.M. le Comte de Brühl, Premier ministre de sa Majesté le Roi de Pologne, Electeur de Saxe.\" A woman is tempted by an old man who tries to seduce her with money."@en;
+  sdo:size "35.5 x 27 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:male_figures, cc:moneybags, cc:bedrooms, cc:female_figures, cc:elderly,
+    cc:temptation;
+  sdo:identifier 40 .
+
+cc:bedrooms a sdo:DefinedTerm;
+  sdo:name "bedrooms"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:female_figures a sdo:DefinedTerm;
+  sdo:name "female figures"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:46 a sdo:VisualArtwork;
+  sdo:name "[Caricature of Louis-Philippe and Guizot]";
+  sdo:description "Print by unknown artist. Louis-Philippe and Guizot stealing money from the \"trésor public.\""@en;
+  sdo:size "25.5 x 19 cm., image";
+  sdo:artform "lithographs"@en;
+  sdo:mentions cc:caricatures, cc:kings_and_rulers, cc:thieves, cc:treasuries, cc:gold,
+    cc:coin_hoards, cc:political_cartoons, cc:satire_artistic_device_;
+  sdo:identifier 46 .
+
+cc:kings_and_rulers a sdo:DefinedTerm;
+  sdo:name "kings and rulers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:treasuries a sdo:DefinedTerm;
+  sdo:name "treasuries"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:coin_hoards a sdo:DefinedTerm;
+  sdo:name "coin hoards"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:political_cartoons a sdo:DefinedTerm;
+  sdo:name "political cartoons"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:68 a sdo:VisualArtwork;
+  sdo:name "A View of the Royal Exchange London. [second exchange]";
+  sdo:description "The first Royal Exchange opened in 1567 and was destroyed in the London fire of 1666. The second Royal Exchange opened in 1669 and was again destroyed by fire in 1838. The foundation of the third Royal Exchange was laid in 1842, and the building was opened on Jan. 1, 1845."@en;
+  sdo:size "26 x 40 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:dateCreated "1751"^^xsd:gYear;
+  sdo:mentions cc:_i_Place_i_Stock_Exchange_London_England, cc:_i_Place_i_Royal_Exchange_London_England,
+    cc:historic_buildings, cc:stock_exchanges, cc:street_life, cc:horse_drawn_vehicles,
+    cc:architecture;
+  sdo:identifier 68 .
+
+cc:_i_Place_i_Stock_Exchange_London_England a sdo:DefinedTerm;
+  sdo:name "<i>Place: </i>Stock Exchange, London, England"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:_i_Place_i_Royal_Exchange_London_England a sdo:DefinedTerm;
+  sdo:name "<i>Place: </i>Royal Exchange, London, England"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:street_life a sdo:DefinedTerm;
+  sdo:name "street life"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:horse_drawn_vehicles a sdo:DefinedTerm;
+  sdo:name "horse-drawn vehicles"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:architecture a sdo:DefinedTerm;
+  sdo:name "architecture"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:47 a sdo:VisualArtwork;
+  sdo:name "La Poire Tapée.";
+  sdo:description "Lithograph of unknown artist. A pear-headed Louis-Philippe runs from an angry crowd while money falls out of a bag he carries. The title is a play on words—it can mean a pear that has been dried in the oven, or it can refer to the slang meaning of \"taper,\" to borrow money from someone."@en;
+  sdo:size "20 x 16 cm., image";
+  sdo:artform "lithographs"@en;
+  sdo:mentions cc:caricatures, cc:political_cartoons, cc:kings_and_rulers, cc:thieves,
+    cc:bags_containers_, cc:gold, cc:coin_hoards, cc:satire_artistic_device_;
+  sdo:identifier 47 .
+
+cc:13 a sdo:VisualArtwork;
+  sdo:name "[Allegory of the Vanity and Transitory Nature of Worldly Possessions]";
+  sdo:description "This is a later state, with J. Razet's address. A woman sits beside a table laden with gold coins and other riches. She holds an urn with smoke rising out of it, a symbol of transience, and a peacock stands behind her, signifying vanity."@en;
+  sdo:size "26 x 18.5 cm., image";
+  sdo:artform "engravings"@en;
+  sdo:dateCreated "1608"^^xsd:gYear;
+  sdo:mentions cc:allegories, cc:urns, cc:smoke, cc:peacocks, cc:crowns_headdresses_,
+    cc:scepters, cc:moneybags, cc:coins, cc:skulls, cc:female_figures;
+  sdo:identifier 13 .
+
+cc:urns a sdo:DefinedTerm;
+  sdo:name "urns"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:smoke a sdo:DefinedTerm;
+  sdo:name "smoke"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:peacocks a sdo:DefinedTerm;
+  sdo:name "peacocks"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:crowns_headdresses_ a sdo:DefinedTerm;
+  sdo:name "crowns (headdresses)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:scepters a sdo:DefinedTerm;
+  sdo:name "scepters"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:skulls a sdo:DefinedTerm;
+  sdo:name "skulls"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:51 a sdo:VisualArtwork;
+  sdo:name "Le Financier.";
+  sdo:description "Plate five from Exercises d'Imagination de Différents Caractères et Formes Humaines . . . Augsburg, 1784-85, of which plates one to eighty-four were engraved by Brichet, and plates eighty-five to one hundred by Goez. Depiction of a corpulent man demanding payment for a bill."@en;
+  sdo:size "22.3 x 15.7 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:dateCreated "1784"^^xsd:gYear;
+  sdo:mentions cc:male_figures, cc:invoices, cc:money, cc:waistcoats;
+  sdo:identifier 51 .
+
+cc:invoices a sdo:DefinedTerm;
+  sdo:name "invoices"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:waistcoats a sdo:DefinedTerm;
+  sdo:name "waistcoats"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:48 a sdo:VisualArtwork;
+  sdo:name "[Caricature of Louis-Philippe]";
+  sdo:description "Lithograph by unknown artist. \"Crowned by the Academy of Overripe Pears.\" The head of Louis-Philippe appears as the fruit of a potted plant, beneath which is printed \"empoté en 1830, dépoté en 1848.\" Guizot is a poisonous parasite on the plant."@en;
+  sdo:size "24 x 18.5 cm., image";
+  sdo:artform "lithographs"@en;
+  sdo:mentions cc:caricatures, cc:political_cartoons, cc:personification, cc:pear, cc:parasites,
+    cc:pots, cc:coins, cc:leaves, cc:epitaphs, cc:satire_artistic_device_;
+  sdo:identifier 48 .
+
+cc:pear a sdo:DefinedTerm;
+  sdo:name "pear"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:parasites a sdo:DefinedTerm;
+  sdo:name "parasites"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:pots a sdo:DefinedTerm;
+  sdo:name "pots"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:leaves a sdo:DefinedTerm;
+  sdo:name "leaves"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:epitaphs a sdo:DefinedTerm;
+  sdo:name "epitaphs"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:64 a sdo:VisualArtwork;
+  sdo:name "John Law (1671-1729).";
+  sdo:description "A Scottish financier who became Controller General of Finances of France, Law is mainly remembered as the founder of the ill-fated Mississippi Company. He merged this huge stock company with the royal bank and took over the public debt and administration of revenue. In 1720, a rash of speculation in land swept France, setting off frenzied selling at high profits. When the bubble burst, thousands of investors went bankrupt, and Law fled the country in disgrace."@en;
+  sdo:size "27.5 x 18 cm., plate mark";
+  sdo:artform "engravings"@en;
+  sdo:mentions cc:portraits, cc:male_figures, cc:garden_landscapes, cc:finance_ministers,
+    cc:wealth, cc:clothing_and_dress;
+  sdo:identifier 64 .
+
+cc:garden_landscapes a sdo:DefinedTerm;
+  sdo:name "garden landscapes"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:finance_ministers a sdo:DefinedTerm;
+  sdo:name "finance ministers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:41 a sdo:VisualArtwork;
+  sdo:name "Political Ravishment, or the Old Lady of Threadneedle-Street in Danger!";
+  sdo:description "Hand-colored etching. Published by H. Humphrey, May 22, 1797. A man attacks an old woman who wears a dress of one-pound notes. She sits on a locked chest labeled \"Bank of England.\" Satire on the suspension of gold payments by the Bank of England. Prime minister William Pitt was forced to implement the issue of paper money when the Bank announced a gold shortage, due to loans it had made to finance the war with France. Rumors circulated that the Bank's coin was merely being held in reserve to send to the Continent in support of the war. Hence the significance of the locked chest, and the coins in the pockets of the lady's paper money dress."@en;
+  sdo:size "24.8 x 34 cm., image size";
+  sdo:artform "etchings"@en;
+  sdo:dateCreated "1797"^^xsd:gYear;
+  sdo:mentions cc:caricatures, cc:paper_money, cc:coins, cc:dresses, cc:political_art,
+    cc:political_cartoons, cc:chests, cc:locks_securing_devices_, cc:banks_and_banking,
+    cc:coin_hoards, cc:satire_artistic_device_;
+  sdo:identifier 41 .
+
+cc:paper_money a sdo:DefinedTerm;
+  sdo:name "paper money"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:dresses a sdo:DefinedTerm;
+  sdo:name "dresses"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:political_art a sdo:DefinedTerm;
+  sdo:name "political art"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:chests a sdo:DefinedTerm;
+  sdo:name "chests"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:locks_securing_devices_ a sdo:DefinedTerm;
+  sdo:name "locks (securing devices)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:banks_and_banking a sdo:DefinedTerm;
+  sdo:name "banks and banking"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:57 a sdo:VisualArtwork;
+  sdo:name "Die Wind Kauffer, werden mit Wind bezahlt, und finden sich auf die letzst betrogen.";
+  sdo:description "A rare German version of one of the seventy-four plates usually found in the popular Dutch satirical volume, Het Groote Tafereel der Dwaasheid (The Great Mirror of Folly). It commemorates the period of speculative mania which swept France, England, and Holland in the year 1720. Pictured here is the inner court of the old Amsterdam exchange, where distraught shareholders are calling out, \"I am ruined; Who will loan me money? I am still living on hope; I cannot sleep,\" etc. The term \"Wind-Handel\" was often used satirically to connote the flimsiness of the stocks being traded. Print by unknown artist."@en;
+  sdo:size "29.7 x 19.3 cm., plate mark";
+  sdo:artform "etchings"@en, "engravings"@en;
+  sdo:mentions cc:stock_exchanges, cc:stockbrokers, cc:courtyards, cc:leaflets, cc:satire_artistic_device_;
+  sdo:identifier 57 .
+
+cc:stockbrokers a sdo:DefinedTerm;
+  sdo:name "stockbrokers"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:leaflets a sdo:DefinedTerm;
+  sdo:name "leaflets"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:43 a sdo:VisualArtwork;
+  sdo:name "La Bonnet-Rouge: --or-- John Bull Evading the Hat Tax.";
+  sdo:description "Published by H. Humphrey, April 5, 1797. Satire on the Pitt administration's doubling of the duty on fur hats and other items, to raise revenue for the war with France. John Bull (the English citizen) is pictured avoiding the hat tax by wearing the French revolutionary cap, or \"bonnet-rouge,\" a symbol not in favor with the English government."@en;
+  sdo:size "36.5 x 26.5 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:dateCreated "1797"^^xsd:gYear;
+  sdo:mentions cc:caricatures, cc:political_art, cc:political_cartoons, cc:hats, cc:taxes,
+    cc:cats, cc:nationalism, cc:personification, cc:satire_artistic_device_;
+  sdo:identifier 43 .
+
+cc:hats a sdo:DefinedTerm;
+  sdo:name "hats"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:cats a sdo:DefinedTerm;
+  sdo:name "cats"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:nationalism a sdo:DefinedTerm;
+  sdo:name "nationalism"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:44 a sdo:VisualArtwork;
+  sdo:name "The Political Balloon; or, The Fall of East India Stock.";
+  sdo:description "Etching by unknown artist. Published by W. Wells, December 4, 1783. Refers to British Foreign Secretary Charles James Fox's bill to replace the directors of the East India Company with seven commissioners. Supporters of the bill hoped it would rid the Company of the directors' treachery and corruption in India. It was rejected by the House of Lords."@en;
+  sdo:size "35 x 25 cm., plate mark";
+  sdo:artform "etchings"@en;
+  sdo:dateCreated "1783"^^xsd:gYear;
+  sdo:mentions cc:caricatures, cc:political_cartoons, cc:balloons, cc:globes, cc:falls_accidents_,
+    cc:coins, cc:wealth, cc:government_policy, cc:satire_artistic_device_;
+  sdo:identifier 44 .
+
+cc:balloons a sdo:DefinedTerm;
+  sdo:name "balloons"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:globes a sdo:DefinedTerm;
+  sdo:name "globes"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:falls_accidents_ a sdo:DefinedTerm;
+  sdo:name "falls (accidents)"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .
+
+cc:government_policy a sdo:DefinedTerm;
+  sdo:name "government policy"@en;
+  sdo:inDefinedTermSet cc:HollisSubjects .

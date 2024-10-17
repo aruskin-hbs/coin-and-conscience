@@ -1,0 +1,572 @@
+{
+  "baseIRI": "http://example.com/base/",
+  "namespaces": {
+    "sdo": "https://schema.org/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "ulan": "http://vocab.getty.edu/ulan/",
+    "lcnaf": "http://id.loc.gov/authorities/names/",
+    "gnd": "https://d-nb.info/standards/elementset/gnd#",
+    "cc": "https://librarydata.hbs.edu/coins-and-conscience/"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "sdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "familyName"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Contributor family name",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "sdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "givenName"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Contributor given name",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "sdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "wd",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Contributor Wikidata QID",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            },
+            {
+              "transformation": {
+                "expression": "ulan",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Union List of Artist Names ID",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            },
+            {
+              "transformation": {
+                "expression": "lcnaf",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Library of Congress authority ID",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gnd",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "associatedDate"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Contributor dates",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gnd",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "dateOfBirth"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Contributor birth year",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "gYear"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gnd",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "dateOfDeath"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Contributor death year",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "gYear"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "sdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Contributor - reconciled",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "sdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "identifier"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Contributor Wikidata QID",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [
+                  {
+                    "property": {
+                      "transformation": {
+                        "expression": "sdo",
+                        "language": "prefix"
+                      },
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "propertyID"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "Wikidata QID"
+                        },
+                        "valueType": {
+                          "type": "literal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "property": {
+                      "transformation": {
+                        "expression": "sdo",
+                        "language": "prefix"
+                      },
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "value"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "columnName": "Contributor Wikidata QID",
+                          "source": "column"
+                        },
+                        "valueType": {
+                          "type": "datatype_literal",
+                          "datatype": {
+                            "transformation": {
+                              "expression": "xsd",
+                              "language": "prefix"
+                            },
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "string"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "type": "value_bnode",
+                "typeMappings": [
+                  {
+                    "transformation": {
+                      "expression": "sdo",
+                      "language": "prefix"
+                    },
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "PropertyValue"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "valueSource": {
+                "columnName": "Union List of Artist Names ID",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [
+                  {
+                    "property": {
+                      "transformation": {
+                        "expression": "sdo",
+                        "language": "prefix"
+                      },
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "propertyID"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "ULAN ID"
+                        },
+                        "valueType": {
+                          "type": "literal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "property": {
+                      "transformation": {
+                        "expression": "sdo",
+                        "language": "prefix"
+                      },
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "value"
+                      }
+                    },
+                    "values": [
+                      {
+                        "valueSource": {
+                          "columnName": "Union List of Artist Names ID",
+                          "source": "column"
+                        },
+                        "valueType": {
+                          "type": "datatype_literal",
+                          "datatype": {
+                            "transformation": {
+                              "expression": "xsd",
+                              "language": "prefix"
+                            },
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "string"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "type": "value_bnode",
+                "typeMappings": [
+                  {
+                    "transformation": {
+                      "expression": "sdo",
+                      "language": "prefix"
+                    },
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "PropertyValue"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "wd",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Contributor Wikidata QID",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "sdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Person"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "gnd",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DifferentiatedPerson"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "language": "raw"
+            },
+            "valueSource": {
+              "columnName": "Contributor role - GND",
+              "source": "column"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "wd",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Contributor Wikidata QID",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "sdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "contributor"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "wd",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Contributor Wikidata QID",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "cc",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "CC catalog number",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "sdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "VisualArtwork"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "gnd",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Work"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1533 @@
+@base <http://example.com/base/> .
+@prefix sdo: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
+@prefix lcnaf: <http://id.loc.gov/authorities/names/> .
+@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix cc: <https://librarydata.hbs.edu/coins-and-conscience/> .
+
+wd:Q329811 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Bloemaert";
+  sdo:givenName "Abraham";
+  sdo:sameAs wd:Q329811, ulan:500007342, lcnaf:nr93052276;
+  gnd:associatedDate "1566-1651";
+  gnd:dateOfBirth "1566"^^xsd:gYear;
+  gnd:dateOfDeath "1651"^^xsd:gYear;
+  sdo:name "Abraham Bloemaert";
+  sdo:identifier _:Q329811, _:500007342 .
+
+_:Q329811 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q329811" .
+
+_:500007342 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500007342" .
+
+cc:14 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q329811;
+  sdo:contributor wd:Q329811 .
+
+cc:13 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q329811;
+  sdo:contributor wd:Q329811, wd:Q918731;
+  gnd:poet wd:Q918731 .
+
+wd:Q2824901 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Roehn";
+  sdo:givenName "Adolphe Eugene Gabriel";
+  sdo:sameAs wd:Q2824901, ulan:500030272, lcnaf:nr91031240;
+  gnd:associatedDate "1780-1867";
+  gnd:dateOfBirth "1780"^^xsd:gYear;
+  gnd:dateOfDeath "1867"^^xsd:gYear;
+  sdo:name "Adolphe Roehn";
+  sdo:identifier _:Q2824901, _:500030272 .
+
+_:Q2824901 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q2824901" .
+
+_:500030272 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500030272" .
+
+cc:59 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q2824901;
+  sdo:contributor wd:Q2824901, wd:Q23939409;
+  gnd:engraver wd:Q23939409 .
+
+wd:Q352438 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Ostade";
+  sdo:givenName "Adriaen van";
+  sdo:sameAs wd:Q352438, ulan:500021654, lcnaf:n82074193;
+  gnd:associatedDate "1610-1685";
+  gnd:dateOfBirth "1610"^^xsd:gYear;
+  gnd:dateOfDeath "1685"^^xsd:gYear;
+  sdo:name "Adriaen van Ostade";
+  sdo:identifier _:Q352438, _:500021654 .
+
+_:Q352438 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q352438" .
+
+_:500021654 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500021654" .
+
+cc:17 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q352438;
+  sdo:contributor wd:Q352438, wd:Q76135;
+  gnd:engraver wd:Q76135 .
+
+wd:Q5580 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Dürer";
+  sdo:givenName "Albrecht";
+  sdo:sameAs wd:Q5580, ulan:500115493, lcnaf:n79118011;
+  gnd:associatedDate "1471-1528";
+  gnd:dateOfBirth "1471"^^xsd:gYear;
+  gnd:dateOfDeath "1528"^^xsd:gYear;
+  sdo:name "Albrecht Dürer";
+  sdo:identifier _:Q5580, _:500115493 .
+
+_:Q5580 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q5580" .
+
+_:500115493 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500115493" .
+
+cc:37 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q5580;
+  sdo:contributor wd:Q5580 .
+
+wd:Q18511523 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Kohl";
+  sdo:givenName "Andreas";
+  sdo:sameAs wd:Q18511523, ulan:500056108;
+  gnd:associatedDate "1624-1657";
+  gnd:dateOfBirth "1624"^^xsd:gYear;
+  gnd:dateOfDeath "1657"^^xsd:gYear;
+  sdo:name "Andreas Kohl";
+  sdo:identifier _:Q18511523, _:500056108 .
+
+_:Q18511523 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q18511523" .
+
+_:500056108 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500056108" .
+
+cc:61 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q18511523;
+  sdo:contributor wd:Q18511523, wd:Q30303204;
+  gnd:artist wd:Q30303204 .
+
+wd:Q7824 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Carracci";
+  sdo:givenName "Annibale";
+  sdo:sameAs wd:Q7824, ulan:500115350, lcnaf:n80043473;
+  gnd:associatedDate "1560-1609";
+  gnd:dateOfBirth "1560"^^xsd:gYear;
+  gnd:dateOfDeath "1609"^^xsd:gYear;
+  sdo:name "Annibale Carracci";
+  sdo:identifier _:Q7824, _:500115350 .
+
+_:Q7824 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q7824" .
+
+_:500115350 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500115350" .
+
+cc:32 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q7824;
+  sdo:contributor wd:Q7824, wd:Q109061;
+  gnd:etcher wd:Q109061 .
+
+wd:Q23939409 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Chollet";
+  sdo:givenName "Antoin Joseph";
+  sdo:sameAs wd:Q23939409;
+  gnd:associatedDate "1793-";
+  gnd:dateOfBirth "1793"^^xsd:gYear;
+  sdo:name "Antoine Joseph Chollet";
+  sdo:identifier _:Q23939409 .
+
+_:Q23939409 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q23939409" .
+
+wd:Q2871156 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Desperet";
+  sdo:givenName "A.";
+  sdo:sameAs wd:Q2871156, ulan:500702740, lcnaf:n00119320;
+  sdo:name "Auguste Desperet";
+  sdo:identifier _:Q2871156, _:500702740 .
+
+_:Q2871156 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q2871156" .
+
+_:500702740 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500702740" .
+
+cc:45 a sdo:VisualArtwork, gnd:Work;
+  gnd:lithographer wd:Q2871156;
+  sdo:contributor wd:Q2871156 .
+
+wd:Q559929 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Picart";
+  sdo:givenName "Bernard";
+  sdo:sameAs wd:Q559929, ulan:500001805, lcnaf:n79112983;
+  gnd:associatedDate "1673-1733";
+  gnd:dateOfBirth "1673"^^xsd:gYear;
+  gnd:dateOfDeath "1733"^^xsd:gYear;
+  sdo:name "Bernard Picart";
+  sdo:identifier _:Q559929, _:500001805 .
+
+_:Q559929 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q559929" .
+
+_:500001805 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500001805" .
+
+cc:34 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q559929;
+  sdo:contributor wd:Q559929, wd:Q1378723;
+  gnd:artist wd:Q1378723 .
+
+wd:Q76135 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Hess";
+  sdo:givenName "Carl Ernst Christoph";
+  sdo:sameAs wd:Q76135, ulan:500066790;
+  gnd:associatedDate "1755-1828";
+  gnd:dateOfBirth "1755"^^xsd:gYear;
+  gnd:dateOfDeath "1828"^^xsd:gYear;
+  sdo:name "Carl Ernst Christoph Hess";
+  sdo:identifier _:Q76135, _:500066790 .
+
+_:Q76135 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q76135" .
+
+_:500066790 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500066790" .
+
+wd:Q538998 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Maratti";
+  sdo:givenName "Carlo";
+  sdo:sameAs wd:Q538998, ulan:500118927, lcnaf:n91127105;
+  gnd:associatedDate "1625-1713";
+  gnd:dateOfBirth "1625"^^xsd:gYear;
+  gnd:dateOfDeath "1713"^^xsd:gYear;
+  sdo:name "Carlo Maratta";
+  sdo:identifier _:Q538998, _:500118927 .
+
+_:Q538998 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q538998" .
+
+_:500118927 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500118927" .
+
+cc:35 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q538998;
+  sdo:contributor wd:Q538998 .
+
+wd:Q2744998 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Eisen";
+  sdo:givenName "Charles";
+  sdo:sameAs wd:Q2744998, ulan:500024830, lcnaf:n85134074;
+  gnd:associatedDate "1720-1778";
+  gnd:dateOfBirth "1720"^^xsd:gYear;
+  gnd:dateOfDeath "1778"^^xsd:gYear;
+  sdo:name "Charles Dominique Joseph Eisen";
+  sdo:identifier _:Q2744998, _:500024830 .
+
+_:Q2744998 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q2744998" .
+
+_:500024830 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500024830" .
+
+cc:39 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q2744998;
+  sdo:contributor wd:Q2744998 .
+
+wd:Q1094674 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Visscher";
+  sdo:givenName "Claes Jansz";
+  sdo:sameAs wd:Q1094674, ulan:500015243, lcnaf:n80024100;
+  gnd:associatedDate "1587-1652";
+  gnd:dateOfBirth "1587"^^xsd:gYear;
+  gnd:dateOfDeath "1652"^^xsd:gYear;
+  sdo:name "Claes Janszoon Visscher II";
+  sdo:identifier _:Q1094674, _:500015243 .
+
+_:Q1094674 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q1094674" .
+
+_:500015243 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500015243" .
+
+cc:29 a sdo:VisualArtwork, gnd:Work;
+  gnd:printer wd:Q1094674;
+  sdo:contributor wd:Q1094674 .
+
+wd:Q62101888 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Regnier";
+  sdo:givenName "Claude";
+  sdo:sameAs wd:Q62101888, ulan:500003674, lcnaf:no2006050200;
+  gnd:associatedDate "19th cent.";
+  sdo:name "Claude Regnier";
+  sdo:identifier _:Q62101888, _:500003674 .
+
+_:Q62101888 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q62101888" .
+
+_:500003674 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500003674" .
+
+cc:53 a sdo:VisualArtwork, gnd:Work;
+  gnd:lithographer wd:Q62101888;
+  sdo:contributor wd:Q62101888 .
+
+cc:54 a sdo:VisualArtwork, gnd:Work;
+  gnd:lithographer wd:Q62101888;
+  sdo:contributor wd:Q62101888 .
+
+wd:Q167220 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Cort";
+  sdo:givenName "Cornelis";
+  sdo:sameAs wd:Q167220, ulan:500011556, lcnaf:nr95000677;
+  gnd:associatedDate "1533-before 1578";
+  gnd:dateOfBirth "1533"^^xsd:gYear;
+  sdo:name "Cornelis Cort";
+  sdo:identifier _:Q167220, _:500011556 .
+
+_:Q167220 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q167220" .
+
+_:500011556 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500011556" .
+
+cc:10 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q167220;
+  sdo:contributor wd:Q167220, wd:Q345605;
+  gnd:artist wd:Q345605 .
+
+cc:3 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q167220, wd:Q765465;
+  sdo:contributor wd:Q167220, wd:Q765465 .
+
+wd:Q869133 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Galle I";
+  sdo:givenName "Cornelis";
+  sdo:sameAs wd:Q869133, ulan:500020542, lcnaf:no99065598;
+  gnd:associatedDate "1576-1650";
+  gnd:dateOfBirth "1576"^^xsd:gYear;
+  gnd:dateOfDeath "1650"^^xsd:gYear;
+  sdo:name "Cornelis Galle the Elder";
+  sdo:identifier _:Q869133, _:500020542 .
+
+_:Q869133 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q869133" .
+
+_:500020542 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500020542" .
+
+cc:31 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q869133;
+  sdo:contributor wd:Q869133 .
+
+wd:Q140096 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Passe I";
+  sdo:givenName "Crispijn van de";
+  sdo:sameAs wd:Q140096, ulan:500003330, lcnaf:n85225189;
+  gnd:associatedDate "1565-1637";
+  gnd:dateOfBirth "1565"^^xsd:gYear;
+  gnd:dateOfDeath "1637"^^xsd:gYear;
+  sdo:name "Crispijn van de Passe the Elder";
+  sdo:identifier _:Q140096, _:500003330 .
+
+_:Q140096 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q140096" .
+
+_:500003330 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500003330" .
+
+cc:18 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q140096;
+  sdo:contributor wd:Q140096 .
+
+wd:Q918731 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Heinsius";
+  sdo:givenName "Daniel";
+  sdo:sameAs wd:Q918731, lcnaf:n50029985;
+  gnd:associatedDate "1580-1655";
+  gnd:dateOfBirth "1580"^^xsd:gYear;
+  gnd:dateOfDeath "1655"^^xsd:gYear;
+  sdo:name "Daniel Heinsius";
+  sdo:identifier _:Q918731 .
+
+_:Q918731 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q918731" .
+
+wd:Q39351810 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Mordant";
+  sdo:givenName "Daniel Charles Marie";
+  sdo:sameAs wd:Q39351810, ulan:500078585;
+  sdo:name "Daniel Mordant";
+  sdo:identifier _:Q39351810, _:500078585 .
+
+_:Q39351810 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q39351810" .
+
+_:500078585 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500078585" .
+
+cc:65 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q39351810;
+  sdo:contributor wd:Q39351810 .
+
+wd:Q335022 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Teniers II";
+  sdo:givenName "David";
+  sdo:sameAs wd:Q335022, ulan:500001443, lcnaf:n79059287;
+  gnd:associatedDate "1610-1690";
+  gnd:dateOfBirth "1610"^^xsd:gYear;
+  gnd:dateOfDeath "1690"^^xsd:gYear;
+  sdo:name "David Teniers the Younger";
+  sdo:identifier _:Q335022, _:500001443 .
+
+_:Q335022 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q335022" .
+
+_:500001443 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500001443" .
+
+cc:16 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q335022;
+  sdo:contributor wd:Q335022 .
+
+wd:Q765465 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Coornhert";
+  sdo:givenName "Dirck Volckertsz";
+  sdo:sameAs wd:Q765465, ulan:500030183, lcnaf:n85310127;
+  gnd:associatedDate "1522-1590";
+  gnd:dateOfBirth "1522"^^xsd:gYear;
+  gnd:dateOfDeath "1590"^^xsd:gYear;
+  sdo:name "Dirck Volckertszoon Coornhert";
+  sdo:identifier _:Q765465, _:500030183 .
+
+_:Q765465 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q765465" .
+
+_:500030183 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500030183" .
+
+wd:Q53504581 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Du Mesnil";
+  sdo:givenName "Elie";
+  sdo:sameAs wd:Q53504581, ulan:500457027, lcnaf:nr00004626;
+  gnd:associatedDate "b. 1726 or 28";
+  sdo:name "Elie Mesnil";
+  sdo:identifier _:Q53504581, _:500457027 .
+
+_:Q53504581 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q53504581" .
+
+_:500457027 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500457027" .
+
+cc:40 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q53504581;
+  sdo:contributor wd:Q53504581, wd:Q959236;
+  gnd:artist wd:Q959236 .
+
+wd:Q1378723 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Le Sueur";
+  sdo:givenName "Eustache";
+  sdo:sameAs wd:Q1378723, ulan:500002273, lcnaf:n85129176;
+  gnd:associatedDate "1616-1655";
+  gnd:dateOfBirth "1616"^^xsd:gYear;
+  gnd:dateOfDeath "1655"^^xsd:gYear;
+  sdo:name "Eustache Le Sueur";
+  sdo:identifier _:Q1378723, _:500002273 .
+
+_:Q1378723 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q1378723" .
+
+_:500002273 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500002273" .
+
+wd:Q345605 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Zucchero";
+  sdo:givenName "Frederico";
+  sdo:sameAs wd:Q345605, ulan:500020194, lcnaf:n80014947;
+  gnd:associatedDate "1541-1609";
+  gnd:dateOfBirth "1541"^^xsd:gYear;
+  gnd:dateOfDeath "1609"^^xsd:gYear;
+  sdo:name "Federico Zuccari";
+  sdo:identifier _:Q345605, _:500020194 .
+
+_:Q345605 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q345605" .
+
+_:500020194 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500020194" .
+
+wd:Q3085083 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Langlois";
+  sdo:givenName "François";
+  sdo:sameAs wd:Q3085083, ulan:500115212, lcnaf:nb2007023472;
+  gnd:associatedDate "1588-1647";
+  gnd:dateOfBirth "1588"^^xsd:gYear;
+  gnd:dateOfDeath "1647"^^xsd:gYear;
+  sdo:name "François Langlois dit Chartres";
+  sdo:identifier _:Q3085083, _:500115212 .
+
+_:Q3085083 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q3085083" .
+
+_:500115212 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500115212" .
+
+cc:22 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q3085083;
+  sdo:contributor wd:Q3085083 .
+
+wd:Q959236 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Mieris the elder";
+  sdo:givenName "Frans van";
+  sdo:sameAs wd:Q959236, ulan:500005591, lcnaf:n86864104;
+  gnd:associatedDate "1635-1681";
+  gnd:dateOfBirth "1635"^^xsd:gYear;
+  gnd:dateOfDeath "1681"^^xsd:gYear;
+  sdo:name "Frans van Mieris the Elder";
+  sdo:identifier _:Q959236, _:500005591 .
+
+_:Q959236 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q959236" .
+
+_:500005591 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500005591" .
+
+wd:Q19829357 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Ertinger";
+  sdo:givenName "Franz";
+  sdo:sameAs wd:Q19829357, ulan:500032369, lcnaf:no98129019;
+  gnd:associatedDate "1640-ca.1710";
+  gnd:dateOfBirth "1640"^^xsd:gYear;
+  sdo:name "Franz Ertinger";
+  sdo:identifier _:Q19829357, _:500032369 .
+
+_:Q19829357 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q19829357" .
+
+_:500032369 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500032369" .
+
+cc:33 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q19829357;
+  sdo:contributor wd:Q19829357 .
+
+wd:Q4491034 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Fleischmann";
+  sdo:givenName "Friedrich";
+  sdo:sameAs wd:Q4491034, ulan:500075009, lcnaf:no2006121397;
+  gnd:associatedDate "1791-1834";
+  gnd:dateOfBirth "1791"^^xsd:gYear;
+  gnd:dateOfDeath "1834"^^xsd:gYear;
+  sdo:name "Friedrich Fleischmann";
+  sdo:identifier _:Q4491034, _:500075009 .
+
+_:Q4491034 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q4491034" .
+
+_:500075009 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500075009" .
+
+cc:38 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q4491034;
+  sdo:contributor wd:Q4491034, wd:Q97477673;
+  gnd:artist wd:Q97477673 .
+
+wd:Q19279961 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Geissler";
+  sdo:givenName "Johann Martin Friedrich";
+  sdo:sameAs wd:Q19279961, ulan:500065277;
+  gnd:associatedDate "1778-1853";
+  gnd:dateOfBirth "1778"^^xsd:gYear;
+  gnd:dateOfDeath "1853"^^xsd:gYear;
+  sdo:name "Friedrich Geißler";
+  sdo:identifier _:Q19279961, _:500065277 .
+
+_:Q19279961 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q19279961" .
+
+_:500065277 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500065277" .
+
+cc:70 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q19279961;
+  sdo:contributor wd:Q19279961 .
+
+wd:Q30303204 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Strauch";
+  sdo:givenName "Georg";
+  sdo:sameAs wd:Q30303204, ulan:500046253, lcnaf:no2001031904;
+  gnd:associatedDate "1613-1675";
+  gnd:dateOfBirth "1613"^^xsd:gYear;
+  gnd:dateOfDeath "1675"^^xsd:gYear;
+  sdo:name "Georg Strauch";
+  sdo:identifier _:Q30303204, _:500046253 .
+
+_:Q30303204 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q30303204" .
+
+_:500046253 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500046253" .
+
+wd:Q20011635 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Gerard van Groeningen";
+  sdo:sameAs wd:Q20011635, ulan:500030406;
+  gnd:associatedDate "ac.1550-1600";
+  sdo:name "Gerard Groenning";
+  sdo:identifier _:Q20011635, _:500030406 .
+
+_:Q20011635 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q20011635" .
+
+_:500030406 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500030406" .
+
+cc:28 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q20011635;
+  sdo:contributor wd:Q20011635 .
+
+wd:Q447730 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Lanfranco";
+  sdo:givenName "Giovanni";
+  sdo:sameAs wd:Q447730, ulan:500022495, lcnaf:n83237456;
+  gnd:associatedDate "1582-1647";
+  gnd:dateOfBirth "1582"^^xsd:gYear;
+  gnd:dateOfDeath "1647"^^xsd:gYear;
+  sdo:name "Giovanni Lanfranco";
+  sdo:identifier _:Q447730, _:500022495 .
+
+_:Q447730 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q447730" .
+
+_:500022495 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500022495" .
+
+cc:27 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q447730;
+  sdo:contributor wd:Q447730 .
+
+wd:Q3108083 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Mitelli";
+  sdo:givenName "Giuseppe Maria";
+  sdo:sameAs wd:Q3108083, ulan:500018469, lcnaf:n80089477;
+  gnd:associatedDate "1634-1718";
+  gnd:dateOfBirth "1634"^^xsd:gYear;
+  gnd:dateOfDeath "1718"^^xsd:gYear;
+  sdo:name "Giuseppe Maria Mitelli";
+  sdo:identifier _:Q3108083, _:500018469 .
+
+_:Q3108083 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q3108083" .
+
+_:500018469 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500018469" .
+
+cc:20 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q3108083;
+  sdo:contributor wd:Q3108083 .
+
+cc:19 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q3108083;
+  sdo:contributor wd:Q3108083 .
+
+wd:Q109061 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Reni";
+  sdo:givenName "Guido";
+  sdo:sameAs wd:Q109061, ulan:500030334, lcnaf:n80021717;
+  gnd:associatedDate "1575-1642";
+  gnd:dateOfBirth "1575"^^xsd:gYear;
+  gnd:dateOfDeath "1642"^^xsd:gYear;
+  sdo:name "Guido Reni";
+  sdo:identifier _:Q109061, _:500030334 .
+
+_:Q109061 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q109061" .
+
+_:500030334 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500030334" .
+
+wd:Q165367 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Goltzius";
+  sdo:givenName "Hendrik";
+  sdo:sameAs wd:Q165367, ulan:500023327, lcnaf:n50034471;
+  gnd:associatedDate "1558-1617";
+  gnd:dateOfBirth "1558"^^xsd:gYear;
+  gnd:dateOfDeath "1617"^^xsd:gYear;
+  sdo:name "Hendrik Goltzius";
+  sdo:identifier _:Q165367, _:500023327 .
+
+_:Q165367 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q165367" .
+
+_:500023327 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500023327" .
+
+cc:36 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q165367;
+  sdo:contributor wd:Q165367, wd:Q711775;
+  gnd:engraver wd:Q711775 .
+
+wd:Q2778104 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Wierix";
+  sdo:givenName "Hieronymus";
+  sdo:sameAs wd:Q2778104, ulan:500025214, lcnaf:nr96038520;
+  gnd:associatedDate "1553-1619";
+  gnd:dateOfBirth "1553"^^xsd:gYear;
+  gnd:dateOfDeath "1619"^^xsd:gYear;
+  sdo:name "Hieronymus Wierix";
+  sdo:identifier _:Q2778104, _:500025214 .
+
+_:Q2778104 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q2778104" .
+
+_:500025214 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500025214" .
+
+cc:8 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q2778104;
+  sdo:contributor wd:Q2778104 .
+
+wd:Q520806 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Gillray";
+  sdo:givenName "James";
+  sdo:sameAs wd:Q520806, ulan:500017355, lcnaf:n50033402;
+  gnd:associatedDate "1757-1815";
+  gnd:dateOfBirth "1757"^^xsd:gYear;
+  gnd:dateOfDeath "1815"^^xsd:gYear;
+  sdo:name "James Gillray";
+  sdo:identifier _:Q520806, _:500017355 .
+
+_:Q520806 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q520806" .
+
+_:500017355 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500017355" .
+
+cc:42 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q520806;
+  sdo:contributor wd:Q520806 .
+
+cc:41 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q520806;
+  sdo:contributor wd:Q520806 .
+
+cc:43 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q520806;
+  sdo:contributor wd:Q520806 .
+
+wd:Q3161745 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Sadeler";
+  sdo:givenName "Jan";
+  sdo:sameAs wd:Q3161745, ulan:500020677, lcnaf:n99035751;
+  gnd:associatedDate "1550-1600";
+  gnd:dateOfBirth "1550"^^xsd:gYear;
+  gnd:dateOfDeath "1600"^^xsd:gYear;
+  sdo:name "Jan Sadeler";
+  sdo:identifier _:Q3161745, _:500020677 .
+
+_:Q3161745 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q3161745" .
+
+_:500020677 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500020677" .
+
+cc:30 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q3161745;
+  sdo:contributor wd:Q3161745 .
+
+wd:Q711775 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Saenredam";
+  sdo:givenName "Jan";
+  sdo:sameAs wd:Q711775, ulan:500019614, lcnaf:nr00037628;
+  gnd:associatedDate "1565-1607";
+  gnd:dateOfBirth "1565"^^xsd:gYear;
+  gnd:dateOfDeath "1607"^^xsd:gYear;
+  sdo:name "Jan Saenredam";
+  sdo:identifier _:Q711775, _:500019614 .
+
+_:Q711775 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q711775" .
+
+_:500019614 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500019614" .
+
+wd:Q97477673 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Berger Desoras";
+  sdo:givenName "Jenny";
+  sdo:sameAs wd:Q97477673, ulan:500165578;
+  sdo:name "Jenny Berger-Désoras";
+  sdo:identifier _:Q97477673, _:500165578 .
+
+_:Q97477673 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q97477673" .
+
+_:500165578 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500165578" .
+
+wd:Q33134321 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Hainzelmann";
+  sdo:givenName "Johann";
+  sdo:sameAs wd:Q33134321, ulan:500029466, lcnaf:nr94005166;
+  sdo:name "Johann Hainzelmann";
+  sdo:identifier _:Q33134321, _:500029466 .
+
+_:Q33134321 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q33134321" .
+
+_:500029466 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500029466" .
+
+cc:63 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q33134321;
+  sdo:contributor wd:Q33134321 .
+
+wd:Q6283227 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Goez";
+  sdo:givenName "Joseph Franz von";
+  sdo:sameAs wd:Q6283227, ulan:500000602, lcnaf:n83025766;
+  gnd:associatedDate "1754-1815";
+  gnd:dateOfBirth "1754"^^xsd:gYear;
+  gnd:dateOfDeath "1815"^^xsd:gYear;
+  sdo:name "Joseph Franz von Goez";
+  sdo:identifier _:Q6283227, _:500000602 .
+
+_:Q6283227 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q6283227" .
+
+_:500000602 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500000602" .
+
+cc:50 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q6283227;
+  sdo:contributor wd:Q6283227 .
+
+cc:51 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q6283227;
+  sdo:contributor wd:Q6283227 .
+
+wd:Q6369402 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Mallery";
+  sdo:givenName "Karel van";
+  sdo:sameAs wd:Q6369402, ulan:500074598, lcnaf:nr00015646;
+  gnd:associatedDate "died after 1635";
+  sdo:name "Karel van Mallery";
+  sdo:identifier _:Q6369402, _:500074598 .
+
+_:Q6369402 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q6369402" .
+
+_:500074598 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500074598" .
+
+cc:12 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q6369402;
+  sdo:contributor wd:Q6369402 .
+
+wd:Q102841270 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Julien";
+  sdo:givenName "Joseph Laurent";
+  sdo:sameAs wd:Q102841270;
+  gnd:associatedDate "-1805";
+  sdo:name "Laurent Julien";
+  sdo:identifier _:Q102841270 .
+
+_:Q102841270 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q102841270" .
+
+cc:21 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q102841270;
+  sdo:contributor wd:Q102841270 .
+
+wd:Q29545626 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Schenck";
+  sdo:givenName "Leonard";
+  sdo:sameAs wd:Q29545626, ulan:500040982, lcnaf:no2020135390;
+  sdo:name "Leonard Schenk";
+  sdo:identifier _:Q29545626, _:500040982 .
+
+_:Q29545626 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q29545626" .
+
+_:500040982 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500040982" .
+
+cc:64 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q29545626;
+  sdo:contributor wd:Q29545626 .
+
+wd:Q19569543 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Desplaces";
+  sdo:givenName "Louis";
+  sdo:sameAs wd:Q19569543, ulan:500009459, lcnaf:nr99004631;
+  sdo:name "Louis Desplaces";
+  sdo:identifier _:Q19569543 .
+
+_:Q19569543 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q19569543" .
+
+wd:Q19569543 sdo:identifier _:500009459 .
+
+_:500009459 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500009459" .
+
+cc:35 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q19569543;
+  sdo:contributor wd:Q19569543 .
+
+wd:Q22009289 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Lespinasse";
+  sdo:givenName "Louis Nicolas de";
+  sdo:sameAs wd:Q22009289, ulan:500017856, lcnaf:n79016122;
+  gnd:associatedDate "1734-1808";
+  gnd:dateOfBirth "1734"^^xsd:gYear;
+  gnd:dateOfDeath "1808"^^xsd:gYear;
+  sdo:name "Louis-Nicolas de Lespinasse";
+  sdo:identifier _:Q22009289, _:500017856 .
+
+_:Q22009289 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q22009289" .
+
+_:500017856 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500017856" .
+
+cc:69 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q22009289;
+  sdo:contributor wd:Q22009289, wd:Q53498257;
+  gnd:engraver wd:Q53498257 .
+
+wd:Q18516699 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Doetechum";
+  sdo:givenName "Lucas van";
+  sdo:sameAs wd:Q18516699, ulan:500055788, lcnaf:nr00001177;
+  gnd:associatedDate "d. before 1584";
+  sdo:name "Lucas van Doetecum";
+  sdo:identifier _:Q18516699, _:500055788 .
+
+_:Q18516699 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q18516699" .
+
+_:500055788 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500055788" .
+
+cc:28 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q18516699;
+  sdo:contributor wd:Q18516699 .
+
+wd:Q538350 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Heemskerck";
+  sdo:givenName "Martin van";
+  sdo:sameAs wd:Q538350, ulan:500124291, lcnaf:n50059018;
+  gnd:associatedDate "1498-1574";
+  gnd:dateOfBirth "1498"^^xsd:gYear;
+  gnd:dateOfDeath "1574"^^xsd:gYear;
+  sdo:name "Maarten van Heemskerck";
+  sdo:identifier _:Q538350, _:500124291 .
+
+_:Q538350 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q538350" .
+
+_:500124291 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500124291" .
+
+cc:29 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q538350;
+  sdo:contributor wd:Q538350 .
+
+cc:3 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q538350;
+  sdo:contributor wd:Q538350 .
+
+cc:1 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q538350;
+  sdo:contributor wd:Q538350, wd:Q1379395;
+  gnd:engraver wd:Q1379395 .
+
+cc:2 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q538350;
+  sdo:contributor wd:Q538350, wd:Q1379395;
+  gnd:engraver wd:Q1379395 .
+
+wd:Q555022 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Vos";
+  sdo:givenName "Martin de";
+  sdo:sameAs wd:Q555022, ulan:500029816, lcnaf:n81032181;
+  gnd:associatedDate "1532-1603";
+  gnd:dateOfBirth "1532"^^xsd:gYear;
+  gnd:dateOfDeath "1603"^^xsd:gYear;
+  sdo:name "Maerten de Vos";
+  sdo:identifier _:Q555022, _:500029816 .
+
+_:Q555022 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q555022" .
+
+_:500029816 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500029816" .
+
+cc:30 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q555022;
+  sdo:contributor wd:Q555022 .
+
+cc:9 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q555022;
+  sdo:contributor wd:Q555022, wd:Q19569785;
+  gnd:engraver wd:Q19569785 .
+
+cc:12 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q555022;
+  sdo:contributor wd:Q555022 .
+
+cc:8 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q555022;
+  sdo:contributor wd:Q555022 .
+
+wd:Q728375 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Marcantonio (Raimondi)";
+  sdo:sameAs wd:Q728375, ulan:500030773, lcnaf:n82045036;
+  gnd:associatedDate "c.1480-c.1534";
+  sdo:name "Marcantonio Raimondi";
+  sdo:identifier _:Q728375, _:500030773 .
+
+_:Q728375 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q728375" .
+
+_:500030773 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500030773" .
+
+cc:37 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q728375;
+  sdo:contributor wd:Q728375 .
+
+wd:Q3299661 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Greuter";
+  sdo:givenName "Matthäus";
+  sdo:sameAs wd:Q3299661, ulan:500005629, lcnaf:n97874737;
+  gnd:associatedDate "1564/66-1638";
+  sdo:name "Matthäus Greuter";
+  sdo:identifier _:Q3299661, _:500005629 .
+
+_:Q3299661 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q3299661" .
+
+_:500005629 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500005629" .
+
+cc:7 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q3299661;
+  sdo:contributor wd:Q3299661 .
+
+wd:Q78163 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Schenck";
+  sdo:givenName "Pieter";
+  sdo:sameAs wd:Q78163, ulan:500008827, lcnaf:n96109832;
+  gnd:associatedDate "1660-ca.1718";
+  gnd:dateOfBirth "1660"^^xsd:gYear;
+  sdo:name "Peter Schenk the Elder";
+  sdo:identifier _:Q78163, _:500008827 .
+
+_:Q78163 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q78163" .
+
+_:500008827 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500008827" .
+
+cc:64 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q78163;
+  sdo:contributor wd:Q78163 .
+
+wd:Q1379395 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Galle";
+  sdo:givenName "Philip";
+  sdo:sameAs wd:Q1379395, ulan:500016136, lcnaf:n86862363;
+  gnd:associatedDate "1537-1612";
+  gnd:dateOfBirth "1537"^^xsd:gYear;
+  gnd:dateOfDeath "1612"^^xsd:gYear;
+  sdo:name "Philip Galle";
+  sdo:identifier _:Q1379395, _:500016136 .
+
+_:Q1379395 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q1379395" .
+
+_:500016136 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500016136" .
+
+cc:4 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q1379395;
+  sdo:contributor wd:Q1379395, wd:Q143595;
+  gnd:artist wd:Q143595 .
+
+wd:Q21464861 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Linder";
+  sdo:givenName "Philippe Jacques";
+  sdo:sameAs wd:Q21464861, ulan:500023798, lcnaf:n97875190;
+  gnd:associatedDate "active 1857-1880";
+  sdo:name "Philippe Jacques Linder";
+  sdo:identifier _:Q21464861, _:500023798 .
+
+_:Q21464861 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q21464861" .
+
+_:500023798 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500023798" .
+
+cc:53 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q21464861;
+  sdo:contributor wd:Q21464861 .
+
+cc:54 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q21464861;
+  sdo:contributor wd:Q21464861 .
+
+wd:Q3383022 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Basan";
+  sdo:givenName "Pierre François";
+  sdo:sameAs wd:Q3383022, ulan:500042976, lcnaf:nr90010940;
+  gnd:associatedDate "1723-1797";
+  gnd:dateOfBirth "1723"^^xsd:gYear;
+  gnd:dateOfDeath "1797"^^xsd:gYear;
+  sdo:name "Pierre-François Basan";
+  sdo:identifier _:Q3383022, _:500042976 .
+
+_:Q3383022 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q3383022" .
+
+_:500042976 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500042976" .
+
+cc:16 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q3383022;
+  sdo:contributor wd:Q3383022 .
+
+wd:Q53498257 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Auvray";
+  sdo:givenName "Pierre Laurent";
+  sdo:sameAs wd:Q53498257, ulan:500042836, lcnaf:n97852965;
+  gnd:associatedDate "b.1736";
+  sdo:name "Pierre-Laurent Auvray";
+  sdo:identifier _:Q53498257, _:500042836 .
+
+_:Q53498257 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q53498257" .
+
+_:500042836 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500042836" .
+
+wd:Q43270 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Brueghel";
+  sdo:givenName "Pieter, the elder";
+  sdo:sameAs wd:Q43270, ulan:500013247, lcnaf:n80162848;
+  gnd:associatedDate "1525-1569";
+  gnd:dateOfBirth "1525"^^xsd:gYear;
+  gnd:dateOfDeath "1569"^^xsd:gYear;
+  sdo:name "Pieter Brueghel the Elder";
+  sdo:identifier _:Q43270, _:500013247 .
+
+_:Q43270 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q43270" .
+
+_:500013247 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500013247" .
+
+cc:5 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q43270;
+  sdo:contributor wd:Q43270, wd:Q2094287;
+  gnd:engraver wd:Q2094287 .
+
+wd:Q2094287 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Heyden";
+  sdo:givenName "Pieter van der";
+  sdo:sameAs wd:Q2094287, ulan:500029457, lcnaf:no2010041362;
+  gnd:associatedDate "1530-1575";
+  gnd:dateOfBirth "1530"^^xsd:gYear;
+  gnd:dateOfDeath "1575"^^xsd:gYear;
+  sdo:name "Pieter van der Heyden";
+  sdo:identifier _:Q2094287, _:500029457 .
+
+_:Q2094287 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q2094287" .
+
+_:500029457 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500029457" .
+
+wd:Q5597 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Raphael";
+  sdo:sameAs wd:Q5597, ulan:500023578, lcnaf:n79041756;
+  gnd:associatedDate "1483-1520";
+  gnd:dateOfBirth "1483"^^xsd:gYear;
+  gnd:dateOfDeath "1520"^^xsd:gYear;
+  sdo:name "Raphael";
+  sdo:identifier _:Q5597, _:500023578 .
+
+_:Q5597 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q5597" .
+
+_:500023578 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500023578" .
+
+cc:27 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q5597;
+  sdo:contributor wd:Q5597, wd:Q729057;
+  gnd:etcher wd:Q729057 .
+
+wd:Q19569785 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Sadeler I";
+  sdo:givenName "Raphael";
+  sdo:sameAs wd:Q19569785, ulan:500026660, lcnaf:n99035740;
+  gnd:associatedDate "born 1560-1561, died 1628 or 1632";
+  sdo:name "Raphael Sadeler the Elder";
+  sdo:identifier _:Q19569785, _:500026660 .
+
+_:Q19569785 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q19569785" .
+
+_:500026660 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500026660" .
+
+wd:Q3420968 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "La Fage";
+  sdo:givenName "Raymond";
+  sdo:sameAs wd:Q3420968, ulan:500027384, lcnaf:n87896081;
+  gnd:associatedDate "1656-1684";
+  gnd:dateOfBirth "1656"^^xsd:gYear;
+  gnd:dateOfDeath "1684"^^xsd:gYear;
+  sdo:name "Raymond Lafage";
+  sdo:identifier _:Q3420968, _:500027384 .
+
+_:Q3420968 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q3420968" .
+
+_:500027384 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500027384" .
+
+cc:33 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q3420968;
+  sdo:contributor wd:Q3420968 .
+
+wd:Q5598 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Rembrandt van Rijn";
+  sdo:sameAs wd:Q5598, ulan:500011051, lcnaf:n79142935;
+  gnd:associatedDate "1606-1669";
+  gnd:dateOfBirth "1606"^^xsd:gYear;
+  gnd:dateOfDeath "1669"^^xsd:gYear;
+  sdo:name "Rembrandt";
+  sdo:identifier _:Q5598, _:500011051 .
+
+_:Q5598 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q5598" .
+
+_:500011051 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500011051" .
+
+cc:15 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q5598;
+  sdo:contributor wd:Q5598 .
+
+wd:Q18577866 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Gaillard";
+  sdo:givenName "René";
+  sdo:sameAs wd:Q18577866, ulan:500029598, lcnaf:n97860778;
+  gnd:associatedDate "ca. 1719-1790";
+  sdo:name "René Gaillard";
+  sdo:identifier _:Q18577866, _:500029598 .
+
+_:Q18577866 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q18577866" .
+
+_:500029598 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500029598" .
+
+cc:39 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q18577866;
+  sdo:contributor wd:Q18577866 .
+
+wd:Q55467951 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Brichet";
+  sdo:givenName "Francois-R. F.";
+  sdo:sameAs wd:Q55467951, ulan:500045182;
+  gnd:associatedDate "18th cen.";
+  sdo:name "Robert Brichet";
+  sdo:identifier _:Q55467951, _:500045182 .
+
+_:Q55467951 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q55467951" .
+
+_:500045182 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500045182" .
+
+cc:50 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q55467951;
+  sdo:contributor wd:Q55467951 .
+
+cc:51 a sdo:VisualArtwork, gnd:Work;
+  gnd:etcher wd:Q55467951;
+  sdo:contributor wd:Q55467951 .
+
+wd:Q15430328 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Sayer";
+  sdo:givenName "Robert";
+  sdo:sameAs wd:Q15430328, ulan:500015707, lcnaf:n80066964;
+  gnd:associatedDate "1725-1794";
+  gnd:dateOfBirth "1725"^^xsd:gYear;
+  gnd:dateOfDeath "1794"^^xsd:gYear;
+  sdo:name "Robert Sayer";
+  sdo:identifier _:Q15430328, _:500015707 .
+
+_:Q15430328 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q15430328" .
+
+_:500015707 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500015707" .
+
+cc:68 a sdo:VisualArtwork, gnd:Work;
+  <> wd:Q15430328;
+  sdo:contributor wd:Q15430328, wd:Q18813375;
+  gnd:engraver wd:Q18813375 .
+
+wd:Q729057 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Badalocchio";
+  sdo:givenName "Sisto";
+  sdo:sameAs wd:Q729057, ulan:500003253, lcnaf:nr2002010028;
+  gnd:associatedDate "1585-1647";
+  gnd:dateOfBirth "1585"^^xsd:gYear;
+  gnd:dateOfDeath "1647"^^xsd:gYear;
+  sdo:name "Sisto Badalocchio";
+  sdo:identifier _:Q729057, _:500003253 .
+
+_:Q729057 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q729057" .
+
+_:500003253 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500003253" .
+
+wd:Q143595 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Stradanus";
+  sdo:sameAs wd:Q143595, ulan:500011304, lcnaf:n84804240;
+  gnd:associatedDate "1523-1605";
+  gnd:dateOfBirth "1523"^^xsd:gYear;
+  gnd:dateOfDeath "1605"^^xsd:gYear;
+  sdo:name "Stradanus";
+  sdo:identifier _:Q143595, _:500011304 .
+
+_:Q143595 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q143595" .
+
+_:500011304 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500011304" .
+
+wd:Q18813375 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Bowles";
+  sdo:givenName "Thomas";
+  sdo:sameAs wd:Q18813375;
+  gnd:associatedDate "ca. 1712 - after 1753";
+  sdo:name "Thomas Bowles";
+  sdo:identifier _:Q18813375 .
+
+_:Q18813375 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q18813375" .
+
+wd:Q47551 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Titian";
+  sdo:sameAs wd:Q47551, ulan:500031075, lcnaf:n79074519;
+  gnd:associatedDate "1488-1576";
+  gnd:dateOfBirth "1488"^^xsd:gYear;
+  gnd:dateOfDeath "1576"^^xsd:gYear;
+  sdo:name "Titian";
+  sdo:identifier _:Q47551, _:500031075 .
+
+_:Q47551 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q47551" .
+
+_:500031075 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500031075" .
+
+cc:31 a sdo:VisualArtwork, gnd:Work;
+  gnd:artist wd:Q47551;
+  sdo:contributor wd:Q47551 .
+
+wd:Q1961244 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Swanenburg";
+  sdo:givenName "Willem";
+  sdo:sameAs wd:Q1961244, ulan:500005645, lcnaf:n86863206;
+  gnd:associatedDate "1581-1612";
+  gnd:dateOfBirth "1581"^^xsd:gYear;
+  gnd:dateOfDeath "1612"^^xsd:gYear;
+  sdo:name "Willem Isaacsz Swanenburg";
+  sdo:identifier _:Q1961244, _:500005645 .
+
+_:Q1961244 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q1961244" .
+
+_:500005645 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500005645" .
+
+cc:14 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q1961244;
+  sdo:contributor wd:Q1961244 .
+
+cc:13 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q1961244;
+  sdo:contributor wd:Q1961244 .
+
+wd:Q998339 a sdo:Person, gnd:DifferentiatedPerson;
+  sdo:familyName "Kilian";
+  sdo:givenName "Wolfgang";
+  sdo:sameAs wd:Q998339, ulan:500008347, lcnaf:n85194981;
+  sdo:name "Wolfgang Kilian";
+  sdo:identifier _:Q998339, _:500008347 .
+
+_:Q998339 a sdo:PropertyValue;
+  sdo:propertyID "Wikidata QID";
+  sdo:value "Q998339" .
+
+_:500008347 a sdo:PropertyValue;
+  sdo:propertyID "ULAN ID";
+  sdo:value "500008347" .
+
+cc:60 a sdo:VisualArtwork, gnd:Work;
+  gnd:engraver wd:Q998339;
+  sdo:contributor wd:Q998339 .

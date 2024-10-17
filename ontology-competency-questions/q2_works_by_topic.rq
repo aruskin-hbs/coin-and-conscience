@@ -2,7 +2,7 @@
 PREFIX sdo: <https://schema.org/>
 SELECT ?work ?workId ?workName WHERE {
     BIND(<https://librarydata.hbs.edu/coins-and-conscience/stock_exchanges> AS ?topicZ)
-    ?work a sdo:CreativeWork ;
+    ?work a sdo:VisualArtwork ;
     	sdo:identifier ?workId ;
     	sdo:name ?workName ;
     	sdo:about ?topicZ .
