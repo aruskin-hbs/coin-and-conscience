@@ -139,3 +139,56 @@ Additional competency questions - federated queries:
 - Relationships between artists (Getty - named graph)
     - What are all of the relationships between artists in the graph, according to Getty?
     - Which artists in the collection have Relationship X to Artist Y, according to Getty?
+
+Strategy is still to use schema.org wherever possible, for the same reasons as in Phase 1. However, some of the metadata that we now have access to in the spreadsheet from SC necessitates relationships/attributes more specific to the domain, so we are also using the [GND Ontology](https://d-nb.info/standards/elementset/gnd), which originates from the German library community.
+
+In the below, using sdo: as shorthand from https://schema.org/, gnd: as shorthand for https://d-nb.info/standards/elementset/gnd#
+
+#### Artist mapping
+
+- Still using Wikidata URI as IRI (may want to rethink this and construct IRI in C&C namespace instead)
+- Still using sdo:Person as the class; also adding gnd:DifferentiatedPerson as class, since we're mixing ontologies
+
+Relationships/attributes:
+
+- sdo:familyName
+- sdo:givenName
+- sdo:sameAs
+    - relating to IRIs from Wikidata, ULAN, LCNAF
+- gnd:associatedDate
+    - Contributor date string, not always exact or formatted as date
+- gnd:dateOfBirth
+    - year of birth, when exact in contributor date string
+- gnd:dateOfDeath
+    - year of death, when exact in contributor date string
+- sdo:name
+    - full name from SC spreadsheet rather than site's artist index; now given name first, not family name
+- sdo:identifier
+    - using PropertyValue blank nodes here; capturing type of identifier (e.g., "Wikidata QID") as sdo:propertyID, and identifier string as sdo:value
+
+#### Artwork mapping
+
+- Construct IRI using Coin and Conscience site namespace, rather than IIIF URL
+- Use sdo:VisualArtwork as class, rather than more generic sdo:CreativeWork; also add gnd:Work as class, since we're mixing ontologies
+
+Relationships/attributes:
+
+    - All of the relationships from Phase 1
+    - specific contributor roles: gnd:artist, gnd:engraver, gnd:etcher, gnd:lithographer, gnd:poet, gnd:printer
+        - relationship to Person
+    - sdo:artform
+        - form/genre term
+    - sdo:dateCreated
+        - Creation date when exact/known - TBD how to handle inexact/estimated dates
+    - sdo:mentions
+        - relationship to Subject
+        - generally things/concepts that are depicted in the image, but not necessarily what the work is about; trying to differentiate from the topics/categories used to organize the Coin and Conscience site
+
+#### Topic mapping
+
+Coin and Conscience categories and HOLLIS subjects
+
+- Class - sdo:DefinedTerm
+- sdo:name
+- sdo:inDefinedTermSet
+    - relationship to DefinedTermSet
