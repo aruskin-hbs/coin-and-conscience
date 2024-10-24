@@ -1,0 +1,9 @@
+# Which works in the collection have art form X?
+PREFIX sdo: <https://schema.org/>
+select ?work ?workName ?workImage where {
+    BIND("lithographs"@en AS ?artformX) .
+    ?work a sdo:VisualArtwork ;
+    	sdo:name ?workName ;
+    	sdo:image ?workImage ;
+    	sdo:artform ?artformX .
+} ORDER BY ?workName

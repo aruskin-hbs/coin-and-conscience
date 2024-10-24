@@ -1,0 +1,12 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX gnd: <https://d-nb.info/standards/elementset/gnd#>
+PREFIX sdo: <https://schema.org/>
+select ?person ?personName ?birthYear ?deathYear where {
+    BIND("1700"^^xsd:gYear as ?yearX).
+    BIND("1800"^^xsd:gYear as ?yearY)
+    ?person a sdo:Person ;
+    	sdo:name ?personName ;
+    	gnd:dateOfBirth ?birthYear ;
+    	gnd:dateOfDeath ?deathYear .
+    FILTER(?deathYear > ?yearX && ?birthYear < ?yearY)
+} ORDER BY ?birthYear ?deathYear

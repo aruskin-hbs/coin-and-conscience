@@ -1,0 +1,12 @@
+# What are all the different roles played by the credited artists in the creation of these works?
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+SELECT DISTINCT ?role ?roleLabel ?roleDescription WHERE {
+    ?work ?role [a sdo:Person].
+    ?role rdfs:label ?roleLabel .
+    OPTIONAL{
+        ?role rdfs:comment ?roleDescription .
+    	FILTER(LANG(?roleDescription) = "en") }
+    FILTER(?someRole != sdo:contributor).
+    FILTER(LANG(?roleLabel) = "en") .
+}

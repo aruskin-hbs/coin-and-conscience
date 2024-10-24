@@ -1,0 +1,11 @@
+# What are Artist X's birth and death dates, if known?
+PREFIX gnd: <https://d-nb.info/standards/elementset/gnd#>
+PREFIX onto: <http://www.ontotext.com/>
+SELECT * 
+FROM onto:explicit
+WHERE {
+    BIND(<http://www.wikidata.org/entity/Q1379395> AS ?artistX) .
+    OPTIONAL{?artistX gnd:associatedDate ?associatedDate .}
+    OPTIONAL{?artistX gnd:dateOfBirth ?birthDate .}
+    OPTIONAL{?artistX gnd:dateOfDeath ?deathDate .}
+}

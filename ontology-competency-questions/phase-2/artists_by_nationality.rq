@@ -1,0 +1,16 @@
+# Which artists in the collection have nationality X?
+PREFIX sdo: <https://schema.org/>
+PREFIX gvp: <http://vocab.getty.edu/ontology#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?person ?personName ?ulanIri WHERE {
+    BIND(<http://vocab.getty.edu/aat/300111198> AS ?nationalityX)
+    ?person a sdo:Person ;
+    	sdo:name ?personName ;
+		sdo:identifier [sdo:propertyID "ULAN ID" ;
+        	sdo:value ?ulanId ] .
+    BIND(IRI(CONCAT('http://vocab.getty.edu/ulan/', ?ulanId)) as ?ulanIri) .
+    SERVICE <https://vocab.getty.edu/sparql> {
+        ?ulanIri foaf:focus/gvp:nationalityPreferred ?nationalityX .
+    }
+}

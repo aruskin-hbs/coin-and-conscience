@@ -1,0 +1,7 @@
+# What subjects are depicted/alluded to in work X?
+PREFIX sdo: <https://schema.org/>
+select ?subject ?subjectLabel where {
+    BIND(<https://librarydata.hbs.edu/coins-and-conscience/6> as ?workX).
+    ?workX sdo:mentions ?subject .
+    ?subject sdo:name ?subjectLabel .
+} ORDER BY ?subjectLabel

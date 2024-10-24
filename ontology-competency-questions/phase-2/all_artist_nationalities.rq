@@ -1,0 +1,18 @@
+# What are the nationalities of the people in the collection?
+PREFIX sdo: <https://schema.org/>
+PREFIX gvp: <http://vocab.getty.edu/ontology#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?person ?personName ?personUlanIri ?nationalityAatIri ?nationalityLabel WHERE {
+    ?person a sdo:Person ;
+    	sdo:name ?personName .
+    OPTIONAL{
+        ?person sdo:identifier [sdo:propertyID "ULAN ID" ;
+        	sdo:value ?ulanId ] .
+        BIND(IRI(CONCAT('http://vocab.getty.edu/ulan/', ?ulanId)) as ?personUlanIri) .
+        SERVICE <https://vocab.getty.edu/sparql> {
+            ?personUlanIri foaf:focus/gvp:nationalityPreferred ?nationalityAatIri .
+            ?nationalityAatIri gvp:prefLabelGVP/gvp:term ?nationalityLabel .
+        }
+    }
+}

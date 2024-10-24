@@ -1,0 +1,9 @@
+# Which works depict/allude to subject X?
+PREFIX sdo: <https://schema.org/>
+select ?work ?workName ?workImage where {
+    BIND(<https://librarydata.hbs.edu/coins-and-conscience/moneybags> as ?subjectX).
+    ?work a sdo:VisualArtwork ; 
+    		sdo:name ?workName ;
+    		sdo:image ?workImage ;
+            sdo:mentions ?subjectX .
+} ORDER BY ?workName 

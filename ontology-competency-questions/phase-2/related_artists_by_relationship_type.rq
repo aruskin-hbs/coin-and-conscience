@@ -1,0 +1,20 @@
+#  Which artists in the collection have Relationship X to Artist Y, according to Getty?
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX gvp: <http://vocab.getty.edu/ontology#>
+PREFIX sdo: <https://schema.org/>
+SELECT ?relatedPerson ?relatedPersonName
+
+FROM <http://example.com/graph/getty>
+FROM <http://rdf4j.org/schema/rdf4j#nil>
+
+WHERE 
+{
+    BIND(<http://vocab.getty.edu/ontology#ulan1101_teacher_of> AS ?relationshipX)
+    BIND(<http://www.wikidata.org/entity/Q765465> AS ?personY)
+    ?personY sdo:sameAs ?ulanPerson .
+    FILTER(regex(str(?ulanPerson), "http://vocab.getty.edu/ulan/" ) )
+    ?ulanPerson ?relationshipX ?anotherUlanPerson .
+    ?anotherUlanPerson ^sdo:sameAs ?relatedPerson .
+    ?relatedPerson a sdo:Person ;
+    	sdo:name ?relatedPersonName .
+}

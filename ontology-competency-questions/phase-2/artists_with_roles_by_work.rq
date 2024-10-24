@@ -1,0 +1,12 @@
+# Who are the artists credited with Work Y and what are their roles in its creation?
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+SELECT ?person ?personName ?roleLabel WHERE {
+    BIND(<https://librarydata.hbs.edu/coins-and-conscience/3> AS ?workY)
+    ?workY ?someRole ?person.
+    ?someRole rdfs:label ?roleLabel .
+    ?person a sdo:Person ;
+    	sdo:name ?personName .
+    FILTER(?someRole != sdo:contributor).
+    FILTER(LANG(?roleLabel) = "en") .
+}

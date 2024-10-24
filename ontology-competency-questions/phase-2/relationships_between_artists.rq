@@ -1,0 +1,22 @@
+# What are all of the relationships between artists in the graph, according to Getty?
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX gvp: <http://vocab.getty.edu/ontology#>
+PREFIX sdo: <https://schema.org/>
+select ?person ?personName ?relationship ?relationshipLabel ?otherPerson ?otherPersonName
+
+FROM <http://example.com/graph/getty>
+FROM <http://rdf4j.org/schema/rdf4j#nil>
+
+WHERE 
+{
+    ?person a sdo:Person ;
+    	sdo:name ?personName ;
+    	sdo:sameAs ?ulanPerson .
+    FILTER(regex(str(?ulanPerson), "http://vocab.getty.edu/ulan/" ) )
+    ?ulanPerson ?relationship ?anotherUlanPerson .
+    ?anotherUlanPerson ^sdo:sameAs ?otherPerson .
+    ?otherPerson a sdo:Person ;
+    	sdo:name ?otherPersonName .
+    ?relationship dc:title ?relationshipLabel .
+
+}

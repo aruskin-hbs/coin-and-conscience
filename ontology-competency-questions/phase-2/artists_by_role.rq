@@ -1,0 +1,11 @@
+# Who are all of the artists who have Role X in the creation of some work?
+PREFIX gnd: <https://d-nb.info/standards/elementset/gnd#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+
+SELECT DISTINCT ?person ?personName WHERE {
+    BIND(gnd:engraver AS ?roleX) .
+    ?work ?roleX ?person .
+    ?person a sdo:Person ;
+    	sdo:name ?personName .
+} ORDER BY ?personName

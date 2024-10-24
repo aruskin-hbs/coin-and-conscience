@@ -1,0 +1,5 @@
+# What art forms are included in the collection?
+PREFIX sdo: <https://schema.org/>
+SELECT ?artform (COUNT(DISTINCT ?work) as ?nWorks) WHERE {
+    ?work sdo:artform ?artform .
+} GROUP BY ?artform

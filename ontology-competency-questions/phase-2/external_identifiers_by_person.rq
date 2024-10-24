@@ -1,0 +1,7 @@
+# What are the external identifiers associated with person X?
+PREFIX sdo: <https://schema.org/>
+SELECT * WHERE {
+    BIND(<http://www.wikidata.org/entity/Q998339> AS ?personX).
+    ?personX sdo:name ?personName ;
+    	sdo:identifier [sdo:propertyID ?identifierType; sdo:value ?identifierValue]
+}

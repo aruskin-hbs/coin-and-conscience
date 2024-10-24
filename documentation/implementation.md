@@ -51,7 +51,7 @@ Applied mapping, exported [TTL file](../ontorefine/result-triples-v1.ttl)
 
 ### Ontology development
 
-[Competency questions](../ontology-competency-questions/)
+[Competency questions](../ontology-competency-questions/phase-1)
 
 For existing site functionality:
 
@@ -97,3 +97,45 @@ After some exploration of upper ontologies, selected [schema.org](https://schema
 - Use https://schema.org/DefinedTerm as class
 - Properties/attributes
     - https://schema.org/name
+
+## Phase 2
+
+### Goal(s)
+- Incorporate additional data received from SC - bibliographic records for the works, which include more structured information about contributors (e.g., their specific roles), subject headings, etc.
+- Bring in additional information from Linked Open Data sources, such as Wikidata and Getty
+
+### Implementation steps
+
+### Ontology development
+
+[Competency questions](../ontology-competency-questions/phase-2)
+
+Should still be able to answer the Phase 1 competency questions.
+
+Additional competency questions - enhanced metadata:
+
+- Artist roles
+    - What are all the different roles played by the credited artists in the creation of these works?
+    - Who are the artists credited with Work Y and what are their roles in its creation?
+    - Who are all of the artists who have Role X in the creation of some work?
+- Artist birth and death dates
+    - What are Artist X's birth and death dates, if known?
+    - Which artists were alive between Year X and Year Y?
+- Subjects
+    - Which works depict/allude to subject X?
+    - What subjects are depicted/alluded to in work X?
+- Art forms
+    - What art forms are included in the collection?
+    - Which works in the collection have art form X?
+- External identifiers
+    - What are the external identifiers associated with person X?
+    - Who is the artist with a particular external identifier value?
+
+Additional competency questions - federated queries:
+
+- Artist nationality (Getty - federated)
+    - Who are all the artists in the collection with nationality X, according to Getty?
+    - What are the nationalities of the artists in the collection, according to Getty?
+- Relationships between artists (Getty - named graph)
+    - What are all of the relationships between artists in the graph, according to Getty?
+    - Which artists in the collection have Relationship X to Artist Y, according to Getty?

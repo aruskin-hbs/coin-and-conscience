@@ -1,0 +1,8 @@
+# Who is the person with a given external identifier value?
+PREFIX sdo: <https://schema.org/>
+SELECT ?personX ?personName WHERE {
+    BIND("Wikidata QID" AS ?identifierType).
+    BIND("Q998339" AS ?identifierValue).
+    ?personX sdo:name ?personName ;
+    	sdo:identifier [sdo:propertyID ?identifierType; sdo:value ?identifierValue]
+}
