@@ -106,6 +106,18 @@ After some exploration of upper ontologies, selected [schema.org](https://schema
 
 ### Implementation steps
 
+#### Data cleaning/reshaping in OntoRefine
+
+- Split SC spreadsheet into two spreadsheets - one with artist information, one with work information
+- For artists:
+    - Split "Author / Creator" values (e.g., "Sadeler, Jan, 1550-1600, Flemish [engraver]") into components - contributor's family name, given name, dates, nationality, role 
+    - When contributor dates take form "YYYY-YYYY", split into birth and death date
+    - Reconcile contributors to person entities in Wikidata
+    - Use Wikidata entry to pull in ULAN and LCNAF IDs for people
+- For works:
+    - Split "Description" field into components - description, materials/techniques, dimensions
+    - Split multi-valued cells - subjects, form/genre terms
+
 ### Ontology development
 
 [Competency questions](../ontology-competency-questions/phase-2)
@@ -173,16 +185,16 @@ Relationships/attributes:
 
 Relationships/attributes:
 
-    - All of the relationships from Phase 1
-    - specific contributor roles: gnd:artist, gnd:engraver, gnd:etcher, gnd:lithographer, gnd:poet, gnd:printer
-        - relationship to Person
-    - sdo:artform
-        - form/genre term
-    - sdo:dateCreated
-        - Creation date when exact/known - TBD how to handle inexact/estimated dates
-    - sdo:mentions
-        - relationship to Subject
-        - generally things/concepts that are depicted in the image, but not necessarily what the work is about; trying to differentiate from the topics/categories used to organize the Coin and Conscience site
+- All of the relationships from Phase 1
+- specific contributor roles: gnd:artist, gnd:engraver, gnd:etcher, gnd:lithographer, gnd:poet, gnd:printer
+    - relationship to Person
+- sdo:artform
+    - form/genre term
+- sdo:dateCreated
+    - Creation date when exact/known - TBD how to handle inexact/estimated dates
+- sdo:mentions
+    - relationship to Subject
+    - generally things/concepts that are depicted in the image, but not necessarily what the work is about; trying to differentiate from the topics/categories used to organize the Coin and Conscience site
 
 #### Topic mapping
 
