@@ -1,0 +1,29 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX gvp: <http://vocab.getty.edu/ontology#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+INSERT {
+    GRAPH <http://example.com/graph/getty> {
+    ?ulanIri ?someRelationship ?relatedPersonUlanIri ;
+    	a gvp:PersonConcept .
+    ?someRelationship ?p ?o.
+    }
+} WHERE {
+    ?person a sdo:Person ;
+    	sdo:name ?personName ;
+		sdo:identifier [sdo:propertyID "ULAN ID" ;
+        	sdo:value ?ulanId ] .
+    BIND(IRI(CONCAT('http://vocab.getty.edu/ulan/', ?ulanId)) as ?ulanIri) .
+    SERVICE <https://vocab.getty.edu/sparql> {
+        ?ulanIri ?someRelationship ?relatedPersonUlanIri .
+        ?relatedPersonUlanIri a gvp:PersonConcept.
+        ?someRelationship rdfs:isDefinedBy <http://vocab.getty.edu/ontology>.
+    }
+    BIND(REPLACE(STR(?relatedPersonUlanIri), "http://vocab.getty.edu/ulan/", "") AS ?relatedPersonUlanId).
+    ?relatedPerson a sdo:Person ;
+    	sdo:name ?relatedPersonName ;
+    	sdo:identifier [sdo:propertyID "ULAN ID" ;
+        	sdo:value ?relatedPersonUlanId ] .
+    FILTER(?person != ?relatedPerson)
+}
